@@ -1,9 +1,9 @@
 /*
 #人人视频解锁原画
 QX1.0.0:
-^https:\/\/api\.rr\.tv(\/user\/privilege\/list|\/ad\/getAll) url script-response-body jianlou/rrtv.js
+^https:\/\/api\.rr\.tv(\/user\/privilege\/list|\/ad\/getAll) url script-response-body https://raw.githubusercontent.com/zgaoliang520/zijianyong/master/rrtv.js
 Surge4.0:
-http-response ^https:\/\/api\.rr\.tv(\/user\/privilege\/list|\/ad\/getAll) requires-body=1,max-size=0,script-path=resources/script/rrtv.js
+http-response ^https:\/\/api\.rr\.tv(\/user\/privilege\/list|\/ad\/getAll) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zgaoliang520/zijianyong/master/rrtv.js
 MITM = api.rr.tv
 */
 
