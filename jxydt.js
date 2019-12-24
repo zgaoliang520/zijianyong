@@ -1,9 +1,9 @@
 /*
 # 驾照一点通vip
 QX1.0.0:
-^https:\/\/vipapi\.jxedt\.com\/vip\/check url script-response-body jianlou/jxydt.js
+^https:\/\/vipapi\.jxedt\.com\/vip\/check url script-response-body https://raw.githubusercontent.com/zgaoliang520/zijianyong/master/jxydt.js
 Surge4.0:
-http-response ^https://vipapi.jxedt.com/vip/ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Alex0510/surge/master/Script/jxydt.js,script-update-interval=0
+http-response ^https://vipapi.jxedt.com/vip/ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zgaoliang520/zijianyong/master/jxydt.js,script-update-interval=0
 MITM = vipapi.jxedt.com
 */
 
