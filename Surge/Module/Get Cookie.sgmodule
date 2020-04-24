@@ -1,0 +1,31 @@
+#!name=Cookie
+#!desc=Cookie获取脚本
+#!system=ios
+
+[Script]
+
+# > 京东 登录 https://bean.m.jd.com
+京东商城•Cookie = max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,type=http-request,pattern=https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean(Index|GroupStageIndex)
+# > 网易云音乐 登录 https://music.163.com/m/login
+网易云音乐•Cookie = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.cookie.js,pattern=^https?:\/\/music\.163\.com\/?.?,type=http-request
+# > 人人字幕组
+人人字幕组•Cookie1 = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/zimuzu/zimuzu.cookie.js,type=http-request,pattern=^https?:\/\/(www\.)?rrys2019\.com\/?.?
+人人字幕组•Cookie2 = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/zimuzu/zimuzu.cookie.js,type=http-request,pattern=^http:\/\/ios.zmzapi.com\/index.php.*a=(mobile_)?login
+# > 喜马拉雅
+喜马拉雅•Cookie = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/ximalaya/ximalaya.cookie.js,type=http-request,pattern=^https?:\/\/.*\/mobile\-user\/homePage\/.*
+# > 人人视频
+人人视频•Cookie = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/rrtv/rrtv.cookie.js,type=http-request,pattern=^https:\/\/api\.rr\.tv\/user\/profile
+# > 饿了么
+饿了么•Cookie = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/elemGetCookies.js,type=http-request,pattern=^https:\/\/h5\.ele\.me\/restapi\/eus\/v\d\/current_user$
+# > 中国电信套餐 
+中国电信套餐•Cookie = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/telecomInfinity.js,type=http-request,pattern=^https?:\/\/e\.189\.cn\/store\/user\/package_detail\.do
+# > 微信小程序 活动抽奖 
+微信活动抽奖•Cookie = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/WeChatLottery_new.js,type=http-request,pattern=^https:\/\/api-hdcj\.9w9\.com\/v\d\/sign
+# > Dlercloud墙洞机场签到
+Dlercloud机场•Cookie = script-path=https://raw.githubusercontent.com/Darren-X1/S/master/dlercloud.js,pattern=^https:\/\/dleris\.best\/user,type=http-request
+# > 趣头条 领金币
+趣头条•Cookie1 = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qtt/qtt.cookie.js,type=http-request,pattern=^https:\/\/api\.1sapp\.com\/sign\/info?
+趣头条•Cookie2 = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qtt/qtt.cookie.js,type=http-request,pattern=^https:\/\/api\.1sapp\.com\/content\/readV2?
+趣头条•Cookie3 = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qtt/qtt.cookie.js,type=http-request,pattern=^https:\/\/api\.1sapp\.com\/x\/feed\/getReward?
+# > 美团
+美团•Cookie = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.cookie.js,requires-body=true,type=http-request,pattern=^https:\/\/i.meituan.com\/evolve\/signin\/signpost\/
