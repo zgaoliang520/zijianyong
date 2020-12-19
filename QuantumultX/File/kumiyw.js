@@ -1,0 +1,69 @@
+圈X:
+
+[rewrite_local]
+
+#酷咪视频VIP无限看
+
+^https:\/\/myiconisme\.com(\/\/api\/movie\/addPlay|\/\/api\/member|\/api\/video_clip\/play|\/api\/app\/message_list) url script-response-body kumiyw.js
+
+酷咪下载地址
+
+km.app
+
+MITM = myiconisme.com
+
+*/
+
+var body = $response.body;
+
+var url = $request.url;
+
+var obj = JSON.parse(body);
+
+const p2 = '//api/movie/addPlay';
+
+const p3 = '//api/member';
+
+const p4 = '/api/video_clip/play';
+
+const p5 = '/api/app/message_list';
+
+if (url.indexOf(p2) != -1) {
+
+    obj.data.re_today_view_times = 999;
+
+    body = JSON.stringify(obj);
+
+} 
+
+if (url.indexOf(p3) != -1) {
+
+    obj.data.is_vip = 1;
+
+    obj.data.expire_time = 2099-09-09;
+
+    obj.data.nick_name = "ios黑科技";
+
+    obj.data.expire_time1 = 4092579678;
+
+    body = JSON.stringify(obj);
+
+} 
+
+if (url.indexOf(p4) != -1) {
+
+    obj.data.is_login = 0;
+
+    body = JSON.stringify(obj);
+
+} 
+
+if (url.indexOf(p5) != -1) {
+
+    obj.code = 1;
+
+    body = JSON.stringify(obj);
+
+} 
+
+$done({body});
