@@ -144,8 +144,8 @@
 
 梨涡签到领现金 = type=cron,cronexp=7 0 * * *,script-path=https://raw.githubusercontent.com/iisams/Scripts/master/liwo/7days.js
 
-汽车之家极速版 = type=cron,cronexp="*/30 * * * *",wake-system=1,timeout=30,script-path=https://raw.githubusercontent.com/ziye12/QCZJSPEED/main/Task/qczjspeed.js
+#汽车之家极速版 = type=cron,cronexp="*/30 * * * *",wake-system=1,timeout=30,script-path=https://raw.githubusercontent.com/ziye12/QCZJSPEED/main/Task/qczjspeed.js
 
-葱花视频 = type=cron,cronexp="*/10 6-23 * * *",wake-system=1,timeout=30,script-path=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/CONGHUA/AutoRead.js
+#葱花视频 = type=cron,cronexp="*/10 6-23 * * *",wake-system=1,timeout=30,script-path=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/CONGHUA/AutoRead.js
 
 
