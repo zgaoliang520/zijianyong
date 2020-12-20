@@ -6,6 +6,9 @@
 hostname = %APPEND% daojia.jd.com, *.rr.tv, *.video.qq.com,v.qq.com, mobwsa.ximalaya.com, *.rrys2020.com,ios.zmzapi.com, ifac*.iqiyi.com, api.m.jd.com, *.youth.cn,ios.baertt.com, nebula.kuaishou.com, mqqapi.reader.qq.com,commontgw6.reader.qq.com,eventv3.reader.qq.com, mobile.app.autohome.com.cn,pay.autohome.com.cn,openapi.autohome.com.cn
 
 [Script]
+# Peng-YM (weather-data.apple.com, api.weather.com)
+彩云天气 = type=http-request, pattern=https://weather-data.apple.com, script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js
+
 京东到家 = type=http-request,pattern=https:\/\/daojia\.jd\.com\/client\?_jdrandom=\d{13}&functionId=%2Fsignin,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jddj.js
 
 人人视频 = type=http-request, pattern=^https:\/\/api\.rr\.tv\/user\/profile, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/rrtv/rrtv.cookie.js
@@ -14,9 +17,16 @@ hostname = %APPEND% daojia.jd.com, *.rr.tv, *.video.qq.com,v.qq.com, mobwsa.xima
 
 喜马拉雅 = type=http-request, pattern=^https?:\/\/.*\/mobile\-user\/homePage\/.*, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/ximalaya/ximalaya.cookie.js
 
-中国电信 = type=http-request, pattern=^https:\/\/wapside.189.cn:9001\/api\/home\/homeInfo script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.cookie.js
+中国电信 = type=http-request, pattern=^https:\/\/wapside.189.cn:9001\/api\/home\/homeInfo, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.cookie.js
 
-吾爱破解 = type=http-request, pattern=https:\/\/www\.52pojie\.cn\/home\.php\? script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js
+吾爱破解 = type=http-request, pattern=https:\/\/www\.52pojie\.cn\/home\.php\?, script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js
+
+小米运动获取Token = type=http-response,pattern=^https:\/\/account\.huami\.com\/v2\/client\/login, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/backUp/xmSports.js
+
+梨涡签到领现金 = type=http-request, pattern=https:\/\/api\.m\.jd\.com\/api\/v1\/sign\/doSign, script-path=https://raw.githubusercontent.com/iisams/Scripts/master/liwo/7dayscookie.js
+
+#饿了么 h5.ele.me 饿了么APP - 我的 - 超级吃货卡
+饿了么_获取cookie = type=http-request,pattern=^https?:\/\/h5\.ele\.me\/restapi\/svip_biz\/v1\/supervip\/query_mission_list\?longitude=([^&]*).*latitude=([^&]*),script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.js
 
 字幕组 = type=http-request, pattern=^https?:\/\/(www\.)?rrys2020\.com\/?.?, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/zimuzu/zimuzu.cookie.js
 字幕组 = type=http-request, pattern=^http:\/\/ios.zmzapi.com\/index.php.*a=(mobile_)?login, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/zimuzu/zimuzu.cookie.js
@@ -25,10 +35,14 @@ hostname = %APPEND% daojia.jd.com, *.rr.tv, *.video.qq.com,v.qq.com, mobwsa.xima
 
 京东 = type=http-request, pattern=https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean, script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
 
+京东赚赚cookie = type=http-request,pattern=^https\:\/\/api\.m\.jd\.com\/client\.action\?functionId\=interactIndex,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/jdzz.cookie.js
+
 中青看点 = type=http-request,pattern=https:\/\/\w+\.youth\.cn\/TaskCenter\/(sign|getSign),script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js
 中青看点 = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/article\/complete,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js, requires-body=1
 中青看点 = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/article\/red_packet,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js, requires-body=1
 中青看点 = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/user\/app_stay\.json,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js, requires-body=1
+
+中青看点获取body = type=http-request, pattern=https://ios.baertt.com/v5/article/complete.json, script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/zqgetbody.js, requires-body=1
 
 中青浏览赚 = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/task\/browse_(start|end)\.json,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth_gain.js, requires-body=1
 
