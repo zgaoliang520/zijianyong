@@ -3,11 +3,11 @@
 #!system=ios
 
 [MITM]
-hostname = %APPEND% daojia.jd.com, *.rr.tv, *.video.qq.com,v.qq.com, mobwsa.ximalaya.com, *.rrys2020.com,ios.zmzapi.com, ifac*.iqiyi.com, api.m.jd.com, *.youth.cn,ios.baertt.com, nebula.kuaishou.com, mqqapi.reader.qq.com,commontgw6.reader.qq.com,eventv3.reader.qq.com, mobile.app.autohome.com.cn,pay.autohome.com.cn,openapi.autohome.com.cn
+hostname = %APPEND% weather-data.apple.com, api.weather.com, daojia.jd.com, *.rr.tv, *.video.qq.com,v.qq.com, mobwsa.ximalaya.com, *.rrys2020.com,ios.zmzapi.com, ifac*.iqiyi.com, api.m.jd.com, *.youth.cn,ios.baertt.com, nebula.kuaishou.com, mqqapi.reader.qq.com,commontgw6.reader.qq.com,eventv3.reader.qq.com, mobile.app.autohome.com.cn,pay.autohome.com.cn,openapi.autohome.com.cn
 
 [Script]
 # Peng-YM (weather-data.apple.com, api.weather.com)
-彩云天气 = type=http-request, pattern=https://weather-data.apple.com, script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js
+彩云天气 = type=http-request, pattern=https:\/\/((weather-data\.apple)|(api.weather))\.com, script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js
 
 京东到家 = type=http-request,pattern=https:\/\/daojia\.jd\.com\/client\?_jdrandom=\d{13}&functionId=%2Fsignin,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jddj.js
 
