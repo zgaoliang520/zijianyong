@@ -41,4 +41,4 @@ tbopener.js = type=http-response,pattern=^https?:\/\/weixin110\.qq\.com\/cgi-bin
 #酷我音乐Vip解锁（vip1.kuwo.cn)
 酷我音乐 = type=http-response,requires-body=1,max-size=-1,pattern=^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice),script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Kuwo.js
 
-hostname = %INSERT% api.weibo.cn,mapi.weibo.com,*.uve.weibo.com,trade-acs.m.taobao.com,api.m.jd.com,ios.prod.ftl.netflix.com,m.pearkin.com,ayk.tmdidi.com,m.pearkin.com,1008610010.yohui.vip,*.xxjjappss.com,*.huaerdadi.com,myiconisme.com,vip07.tr102.com,weixin110.qq.com,vip1.kuwo.cn
+hostname = %APPEND% api.weibo.cn,mapi.weibo.com,*.uve.weibo.com,trade-acs.m.taobao.com,api.m.jd.com,ios.prod.ftl.netflix.com,m.pearkin.com,ayk.tmdidi.com,m.pearkin.com,1008610010.yohui.vip,*.xxjjappss.com,*.huaerdadi.com,myiconisme.com,vip07.tr102.com,weixin110.qq.com,vip1.kuwo.cn
