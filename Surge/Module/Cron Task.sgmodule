@@ -58,19 +58,19 @@
 
 东东超市 = type=cron,cronexp="11 1-23/5 * * *",wake-system=1,timeout=320,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_superMarket.js
 
-京小超兑换奖品 = type=cron,cronexp="0 0 0 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_blueCoin.js
+京小超兑换奖品 = type=cron,cronexp="10 05 00 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_blueCoin.js
 
-进店领豆 = type=cron,cronexp="10 0 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_shop.js
+进店领豆 = type=cron,cronexp="30 00 00 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_shop.js
 
 摇京豆 = type=cron,cronexp="5 0 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_club_lottery.js
 
-京东全民开红包 = type=cron,cronexp="1 1 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_redPacket.js
+京东全民开红包 = type=cron,cronexp="10 00 00 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_redPacket.js
 
-京东健康 = type=cron,cronexp="10 8 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_jdh.js
+京东健康 = type=cron,cronexp="10 04 00 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_jdh.js
 
-京东赚赚 = type=cron,cronexp="0 0 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/jdzz.js
+京东赚赚 = type=cron,cronexp="10 02 00 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/jdzz.js
 
-京豆变动通知 = type=cron,cronexp="2 9 * * *",wake-system=1,timeout=440,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_bean_change.js
+京豆变动通知 = type=cron,cronexp="10 00 01 * * *",wake-system=1,timeout=440,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_bean_change.js
 
 京喜工厂 = type=cron,cronexp="10 * * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_dreamFactory.js
 # >>> 东东小窝 {00:09}
