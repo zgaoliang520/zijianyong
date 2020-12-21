@@ -2,9 +2,6 @@
 #!desc=啊亮
 #!system=ios
 
-
-hostname = %INSERT% api.weibo.cn,mapi.weibo.com,*.uve.weibo.com,trade-acs.m.taobao.com,api.m.jd.com,ios.prod.ftl.netflix.com,m.pearkin.com,ayk.tmdidi.com,m.pearkin.com,1008610010.yohui.vip,*.xxjjappss.com,*.huaerdadi.com,myiconisme.com,vip07.tr102.com
-
 [Script]
 奈飞评分1 = type=http-request,pattern=^https?://ios\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
 
@@ -38,4 +35,4 @@ Pear雪梨 = requires-body=1,max-size=0,script-path=https://raw.githubuserconten
 优选小视频=type=http-response,pattern=^https:\/\/vip07\.tr102\.com(\/api\/notice\/notice|\/api\/advertise\/getStartUp|\/api\/user),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zgaoliang520/zijianyong/master/QuantumultX/File/youxuanxsp.js
 
 
-
+hostname = %INSERT% api.weibo.cn,mapi.weibo.com,*.uve.weibo.com,trade-acs.m.taobao.com,api.m.jd.com,ios.prod.ftl.netflix.com,m.pearkin.com,ayk.tmdidi.com,m.pearkin.com,1008610010.yohui.vip,*.xxjjappss.com,*.huaerdadi.com,myiconisme.com,vip07.tr102.com
