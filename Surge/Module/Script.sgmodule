@@ -21,7 +21,7 @@
 微博去广告 = type=http-response,requires-body=1,max-size=-1,pattern=^https?://m?api\.weibo\.c(n|om)/2/(statuses/(unread|extend|positives/get|(friends|video)(/|_)(mix)?timeline)|stories/(video_stream|home_list)|(groups|fangle)/timeline|profile/statuses|comments/build_comments|photo/recommend_list|service/picfeed|searchall|cardlist|page|!/(photos/pic_recommend_status|live/media_homelist)|video/tiny_stream_video_list|photo/info),script-path=https://raw.githubusercontent.com/yichahucha/surge/master/wb_ad.js
 
 # > Pear雪梨 unlock vip
-Pear雪梨 = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/pear.js,type=http-response,pattern=^https:\/\/(www\.baidu.com2\.club|ayk\.tmdidi\.com|m\.pearkin\.com|souhu\.mett\.me|bkcd\.b-cdn\.net)\/(api\/movie\/WatchMovie|api\/Account\/CheckVip|api\/account\/IndexDetail)
+Pear雪梨 = type=http-response,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/pear.js,type=http-response,pattern=^https:\/\/(www\.baidu.com2\.club|ayk\.tmdidi\.com|m\.pearkin\.com|souhu\.mett\.me|bkcd\.b-cdn\.net)\/(api\/movie\/WatchMovie|api\/Account\/CheckVip|api\/account\/IndexDetail)
 
 # 奥利给直播会员https://ok6.app/
 奥利给直播会员 = type=http-response,pattern=https?:\/\/1008610010\.yohui\.vip\/index\.php\/Api\/LiveApi\/getMovietime,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zgaoliang520/zijianyong/master/QuantumultX/File/AoLiGei.js
@@ -42,7 +42,6 @@ tbopener.js = type=http-response,pattern=^https?:\/\/weixin110\.qq\.com\/cgi-bin
 酷我音乐 = type=http-response,requires-body=1,max-size=-1,pattern=^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice),script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Kuwo.js
 
 # 去微信公众号广告 (mp.weixin.qq.com)
-^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
-
+去微信公众号广告 = type=http-response,pattern=^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
 [MITM]
 hostname = %APPEND% api.weibo.cn,mapi.weibo.com,*.uve.weibo.com,trade-acs.m.taobao.com,api.m.jd.com,ios.prod.ftl.netflix.com,m.pearkin.com,ayk.tmdidi.com,m.pearkin.com,1008610010.yohui.vip,*.xxjjappss.com,*.huaerdadi.com,myiconisme.com,vip07.tr102.com,weixin110.qq.com,vip1.kuwo.cn,mp.weixin.qq.com
