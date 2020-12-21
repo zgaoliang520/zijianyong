@@ -127,6 +127,8 @@
 # >>>>> 活动入口：首页--秒杀--下拉--狂撒 2 亿京豆
 秒杀红包雨 = type=cron,cronexp="10 7 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_ms_redrain.js
 
+疯狂的 JOY = type=cron,cronexp="6 0,12 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/elecV2/QuantumultX-Tools/master/archive/JD/crazyjoy.js
+
 # 薅
 中青看点极速版 = type=cron,cronexp="0 */10 5-20 * * *",wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js
 
@@ -142,5 +144,6 @@
 
 梨涡签到领现金 = type=cron,cronexp=7 0 * * *,script-path=https://raw.githubusercontent.com/iisams/Scripts/master/liwo/7days.js
 
+滴滴出行 = type=cron,cronexp="20 0 7 * * *",wake-system=1,timeout=120,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js
 
 
