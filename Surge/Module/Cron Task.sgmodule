@@ -7,19 +7,19 @@
 
 # 签到（凌晨过8分开始）
 
-人人视频 = type=cron,cronexp="6 08 00 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/rrtv/rrtv.js
+人人视频 = type=cron,cronexp="00 08 00 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/rrtv/rrtv.js
 
-腾讯视频 = type=cron,cronexp="8 08 00 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js
+腾讯视频 = type=cron,cronexp="20 08 00 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js
 
-爱奇艺 = type=cron,cronexp="14 08 00 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
+爱奇艺 = type=cron,cronexp="40 08 00 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
 
-吾爱破解 = type=cron,cronexp="32 08 00 * * *",script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js
+吾爱破解 = type=cron,cronexp="50 08 00 * * *",script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js
 
-电信营业厅签到 = type=cron,cronexp="40 08 00 * * *",script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.js
+电信营业厅签到 = type=cron,cronexp="55 08 00 * * *",script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.js
 
 # 威锋网
 # 打开浏览器访问: https://www.feng.com`(先登录! 把页面切换为电脑版)`
-威锋网 = type=cron,cronexp="46 08 00 * * *",script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/feng/feng.js
+威锋网 = type=cron,cronexp="00 09 00 * * *",script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/feng/feng.js
 
 #小米运动account.huami.com（退出，重新登录，用手机号加密码）
 小米运动 = type=cron,cronexp="10 09 00 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/backUp/xmSports.js
