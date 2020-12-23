@@ -7,22 +7,22 @@
 
 # 签到（凌晨过8分开始）
 
-人人视频 = type=cron,cronexp="50 55 00 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/rrtv/rrtv.js
+人人视频 = type=cron,cronexp="00 04 00 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/rrtv/rrtv.js
 
-腾讯视频 = type=cron,cronexp="20 9 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js
+腾讯视频 = type=cron,cronexp="15 04 00 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js
 
-爱奇艺 = type=cron,cronexp="20 9 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
+爱奇艺 = type=cron,cronexp="20 04 00 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
 
-吾爱破解 = type=cron,cronexp="50 08 00 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js
+吾爱破解 = type=cron,cronexp="25 04 00 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js
 
-电信营业厅签到 = type=cron,cronexp="55 08 00 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.js
+电信营业厅签到 = type=cron,cronexp="30 04 00 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.js
 
 # 威锋网
 # 打开浏览器访问: https://www.feng.com`(先登录! 把页面切换为电脑版)`
-威锋网 = type=cron,cronexp="00 09 00 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/feng/feng.js
+威锋网 = type=cron,cronexp="35 04 00 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/feng/feng.js
 
 #小米运动account.huami.com（退出，重新登录，用手机号加密码）
-小米运动 = type=cron,cronexp="10 09 00 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/backUp/xmSports.js
+小米运动 = type=cron,cronexp="00 06 00 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/backUp/xmSports.js
 
 饿了么_领取吃货豆 = type=cron,cronexp="10 00 03 * * *",timeout=60,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.js
 
@@ -68,7 +68,7 @@
 
 京东全民开红包 = type=cron,cronexp="10 00 00 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_redPacket.js
 
-京东健康 = type=cron,cronexp="10 04 00 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_jdh.js
+京东健康 = type=cron,cronexp="30 05 00 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_jdh.js
 
 京东赚赚 = type=cron,cronexp="10 02 00 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/jdzz.js
 
