@@ -114,7 +114,7 @@
 
 #whyour
 #半自动领小程序 赚京豆 中的步数领京豆, 建议定时放在步数达到2万以后，然后手动进入一次赚京豆小程序
-半自动领京豆 = type=cron,cronexp="30 18 * * *",timeout=60,script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/jd_zjd.js
+半自动领京豆 = type=cron,cronexp="00 32 00 * * *",timeout=60,script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/jd_zjd.js
 
 京喜工厂plus = type=cron,cronexp="0 1,18 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_factory_component.js
 
@@ -140,7 +140,7 @@
 威锋网 = type=cron,cronexp="50 28 00 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/feng/feng.js
 
 #小米运动account.huami.com（退出，重新登录，用手机号加密码）
-小米运动 = type=cron,cronexp="00 00 17 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/backUp/xmSports.js
+小米运动 = type=cron,cronexp="00 31 00 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/backUp/xmSports.js
 
 饿了么_领取吃货豆 = type=cron,cronexp="10 00 03 * * *",timeout=60,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.js
 
