@@ -47,5 +47,10 @@ tbopener.js = type=http-response,pattern=^https?:\/\/weixin110\.qq\.com\/cgi-bin
 # > Apple下载加速
 APP下载加速•JS = type=dns,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/Surge/dnspod.js
 
+#抖音去广告&水印（*.amemv.com）
+抖音去广告&水印req = type=http-request,pattern=^https?:\/\/.+?\.amemv\.com\/aweme\/v\d\/(feed|aweme\/post|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list)\/,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Aweme.js
+
+抖音去广告&水印res = type=http-response,pattern=^https?:\/\/.+?\.amemv\.com\/aweme\/v\d\/(feed|aweme\/post|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list)\/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Aweme.js
+
 [MITM]
-hostname = %APPEND% api.weibo.cn,mapi.weibo.com,*.uve.weibo.com,trade-acs.m.taobao.com,api.m.jd.com,ios.prod.ftl.netflix.com,m.pearkin.com,ayk.tmdidi.com,m.pearkin.com,1008610010.yohui.vip,*.xxjjappss.com,*.huaerdadi.com,myiconisme.com,vip07.tr102.com,weixin110.qq.com,vip1.kuwo.cn,mp.weixin.qq.com
+hostname = %APPEND% *.amemv.com,api.weibo.cn,mapi.weibo.com,*.uve.weibo.com,trade-acs.m.taobao.com,api.m.jd.com,ios.prod.ftl.netflix.com,m.pearkin.com,ayk.tmdidi.com,m.pearkin.com,1008610010.yohui.vip,*.xxjjappss.com,*.huaerdadi.com,myiconisme.com,vip07.tr102.com,weixin110.qq.com,vip1.kuwo.cn,mp.weixin.qq.com
