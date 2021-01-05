@@ -3,7 +3,7 @@
 #!system=ios
 
 [MITM]
-hostname = %APPEND% jdjoy.jd.com,draw.jdfcloud.com,draw.jdfcloud.com,weather-data.apple.com,api.weather.com,draw.jdfcloud.com,passport.biligame.com,c.tieba.baidu.com,www.52pojie.cn,h5.ele.me,account.huami.com,api.didialift.com,bosp-api.xiaojukeji.com,as.xiaojukeji.com,manhattan.webapp.xiaojukeji.com,pay.diditaxi.com.cn, daojia.jd.com, nebula.kuaishou.com, *.rr.tv, tieba.baidu.com, *.video.qq.com,v.qq.com, mobwsa.ximalaya.com, *.rrys2020.com,ios.zmzapi.com, ifac*.iqiyi.com, api.m.jd.com, account.huami.com, wq.jd.com, www.xiaodouzhuan.cn, *.youth.cn,ios.baertt.com, mqqapi.reader.qq.com,commontgw6.reader.qq.com,eventv3.reader.qq.com, app.kxp.com, *.snssdk.com
+hostname = %APPEND% wapside.189.cn:9001,*.feng.com,jdjoy.jd.com,draw.jdfcloud.com,draw.jdfcloud.com,weather-data.apple.com,api.weather.com,draw.jdfcloud.com,passport.biligame.com,c.tieba.baidu.com,www.52pojie.cn,h5.ele.me,account.huami.com,api.didialift.com,bosp-api.xiaojukeji.com,as.xiaojukeji.com,manhattan.webapp.xiaojukeji.com,pay.diditaxi.com.cn, daojia.jd.com, nebula.kuaishou.com, *.rr.tv, tieba.baidu.com, *.video.qq.com,v.qq.com, mobwsa.ximalaya.com, *.rrys2020.com,ios.zmzapi.com, ifac*.iqiyi.com, api.m.jd.com, account.huami.com, wq.jd.com, www.xiaodouzhuan.cn, *.youth.cn,ios.baertt.com, mqqapi.reader.qq.com,commontgw6.reader.qq.com,eventv3.reader.qq.com, app.kxp.com, *.snssdk.com
 
 [Script]
 #自加
@@ -33,6 +33,9 @@ hostname = %APPEND% jdjoy.jd.com,draw.jdfcloud.com,draw.jdfcloud.com,weather-dat
 
 #威锋论坛（*.feng.com）
 威锋论坛Cookie = type=http-request,pattern=^https:\/\/(www\.)?feng\.com\/?.?, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/feng/feng.cookie.js
+
+#电信营业厅（wapside.189.cn:9001）
+电信营业厅 = type=http-request,pattern=^https:\/\/wapside.189.cn:9001\/api\/home\/sign,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.cookie.js,requires-body=true
 
 #原版
 滴滴出行_获取Token = type=http-request,pattern=^https?:\/\/api\.didialift\.com\/beatles\/userapi\/user\/user\/getuserinfo?.*city_id=(\d+).*token=([^&]*),script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js
