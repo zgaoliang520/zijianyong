@@ -3,12 +3,18 @@
 #!system=ios
 
 [MITM]
-hostname = %APPEND% h5.ele.me,account.huami.com,api.didialift.com,bosp-api.xiaojukeji.com,as.xiaojukeji.com,manhattan.webapp.xiaojukeji.com,pay.diditaxi.com.cn, daojia.jd.com, nebula.kuaishou.com, *.rr.tv, tieba.baidu.com, *.video.qq.com,v.qq.com, mobwsa.ximalaya.com, *.rrys2020.com,ios.zmzapi.com, ifac*.iqiyi.com, api.m.jd.com, account.huami.com, wq.jd.com, www.xiaodouzhuan.cn, *.youth.cn,ios.baertt.com, mqqapi.reader.qq.com,commontgw6.reader.qq.com,eventv3.reader.qq.com, app.kxp.com, *.snssdk.com
+hostname = %APPEND% passport.biligame.com,c.tieba.baidu.com,www.52pojie.cn,h5.ele.me,account.huami.com,api.didialift.com,bosp-api.xiaojukeji.com,as.xiaojukeji.com,manhattan.webapp.xiaojukeji.com,pay.diditaxi.com.cn, daojia.jd.com, nebula.kuaishou.com, *.rr.tv, tieba.baidu.com, *.video.qq.com,v.qq.com, mobwsa.ximalaya.com, *.rrys2020.com,ios.zmzapi.com, ifac*.iqiyi.com, api.m.jd.com, account.huami.com, wq.jd.com, www.xiaodouzhuan.cn, *.youth.cn,ios.baertt.com, mqqapi.reader.qq.com,commontgw6.reader.qq.com,eventv3.reader.qq.com, app.kxp.com, *.snssdk.com
 
 [Script]
 #自加（h5.ele.me,account.huami.com）
 #饿了么 h5.ele.me 饿了么APP - 我的 - 超级吃货卡
 饿了么_获取cookie = type=http-request,pattern=^https?:\/\/h5\.ele\.me\/restapi\/svip_biz\/v1\/supervip\/query_mission_list\?longitude=([^&]*).*latitude=([^&]*),script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.js
+
+吾爱Cookie = type=http-request,pattern=https:\/\/www\.52pojie\.cn\/home\.php\?,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js
+
+哔哩漫画Cookie = type=http-request,pattern=^https:\/\/passport\.biligame\.com\/api\/login\/sso.+?version%22%3A%22(3|4|5),script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Bilibili-DailyBonus/Manga.js
+
+贴吧Cookie = type=http-request,pattern=https?:\/\/(c\.tieba\.baidu\.com|180\.97\.\d+\.\d+)\/c\/s\/login,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/BDTieBa-DailyBonus/TieBa.js
 
 #原版
 滴滴出行_获取Token = type=http-request,pattern=^https?:\/\/api\.didialift\.com\/beatles\/userapi\/user\/user\/getuserinfo?.*city_id=(\d+).*token=([^&]*),script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js
