@@ -245,8 +245,8 @@ http-request ^https:\/\/wapside.189.cn:9001\/api\/exchange\/consume script-path=
 http-request https://youhui.95516.com/newsign/public/app/index.html script-path=https://gitee.com/passerby-b/javascript/raw/master/unipay.js, requires-body=true, tag=云闪付签到
 
 # ziye12 (mqqapi.reader.qq.com)
-企鹅读书获取更新body = type=http-request,pattern=https:\/\/mqqapi\.reader\.qq\.com\/log\/v4\/mqq\/track,requires-body=1,script-path=https://raw.githubusercontent.com/ziye12/JavaScript/master/Task/qqreads.js
-企鹅读书获取时长 = type=http-request,pattern=https:\/\/mqqapi\.reader\.qq\.com\/mqq\/addReadTimeWithBid?,script-path=https://raw.githubusercontent.com/ziye12/JavaScript/master/Task/qqreads.js
+企鹅读书获取更新body = type=http-request,pattern=https:\/\/mqqapi\.reader\.qq\.com\/log\/v4\/mqq\/track,requires-body=1,script-path=https://raw.githubusercontent.com/zgaoliang520/zijianyong/master/MY-Script/qqreadck.js
+企鹅读书获取时长 = type=http-request,pattern=https:\/\/mqqapi\.reader\.qq\.com\/mqq\/addReadTimeWithBid?,script-path= https://raw.githubusercontent.com/zgaoliang520/zijianyong/master/MY-Script/qqreadck.js
 
 #自加（h5.ele.me,account.huami.com）
 
