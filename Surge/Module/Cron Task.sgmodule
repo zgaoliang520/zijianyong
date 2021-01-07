@@ -149,14 +149,9 @@ CrazyJoy任务 = type=cron,cronexp="15 0 * * *",wake-system=1,timeout=20,script-
 电视家 = type=cron,cronexp="30 29 00 * * *",wake-system=1,timeout=30,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/dianshijia.js
 
 快手极速版 = type=cron,cronexp="00 30 00 * * *",wake-system=1,timeout=30,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/kuaishou.js
-
-#先关闭VPN，企鹅读书进去书架，点开VPN，再点免费书进去获取ck
-企鹅读书 = type=cron,cronexp="*/11 * * * *",wake-system=1,timeout=30,script-path=https://raw.githubusercontent.com/zgaoliang520/zijianyong/master/MY-Script/qqreadck.js
-
 梨涡签到领现金 = type=cron,cronexp="15 30 00 * * *",script-path=https://raw.githubusercontent.com/iisams/Scripts/master/liwo/7days.js
 
 滴滴出行 = type=cron,cronexp="55 30 00 * * *",wake-system=1,timeout=120,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js
 
 百度极速版 = type=cron,cronexp="30 6-20/2 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/baidu_speed.js
 
-抖音极速版 = type=cron,cronexp="*/20 6-23 * * *",wake-system=1,timeout=30,script-path=https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/dyjsb.js
