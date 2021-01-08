@@ -126,7 +126,7 @@ CrazyJoy任务 = type=cron,cronexp="15 0 * * *",wake-system=1,timeout=20,script-
 
 电信营业厅签到 = type=cron,cronexp="45 27 00 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.js
 
-百度贴吧 = type=cron,cronexp="55 27 00 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/ChuheGit/1/main/QuantumultX/Extra/tieba.js
+百度贴吧 = type=cron,cronexp="55 27 00 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js
 
 # 威锋网
 # 打开浏览器访问: https://www.feng.com`(先登录! 把页面切换为电脑版)`
