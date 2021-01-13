@@ -110,6 +110,9 @@ CrazyJoy任务 = type=cron,cronexp="15 0 * * *",wake-system=1,timeout=20,script-
 
 东东小窝 = type=cron,cronexp="22 0 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_woHome.js
 
+#shylocks
+盲盒抽京豆 = type=cron,cronexp="33 0 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/shylocks/Loon/main/jd_mh.js
+
 #iisams
 京东特权值 = type=cron,cronexp="23 0 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/iisams/Scripts/master/liwo/jdtqz.js
 
