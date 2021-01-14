@@ -102,16 +102,11 @@ CrazyJoy任务 = type=cron,cronexp="10 7 * * *",wake-system=1,timeout=20,script-
 #iisams
 京东特权值 = type=cron,cronexp="23 0 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/iisams/Scripts/master/liwo/jdtqz.js
 
-#MoPoQAQ
-京喜财富岛 = type=cron,cronexp="24 0 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/MoPoQAQ/Script/main/Me/jx_cfd.js
-
-#whyour
-京喜工厂plus = type=cron,cronexp="0 1,18 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_factory_component.js
-
 #打开京喜农场，手动完成工厂任务或者签到任务，或者金牌厂长任务，提示获取cookie成功，然后退出跑任务脚本
 京喜农场 = type=cron,cronexp=0 9,12,18 * * *,timeout=60,script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_nc.js
 
 京喜金牌厂长 = type=cron,cronexp="10 *\/4 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_story.js
+
 # 签到（凌晨过8分开始）
 人人视频 = type=cron,cronexp="00 26 00 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/rrtv/rrtv.js
 
@@ -130,7 +125,6 @@ CrazyJoy任务 = type=cron,cronexp="10 7 * * *",wake-system=1,timeout=20,script-
 威锋网 = type=cron,cronexp="10 28 00 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/feng/feng.js
 
 #小米运动account.huami.com（退出，重新登录，用手机号加密码）
-
 小米运动 = type=cron,cronexp="15 19 * * *",wake-system=1,timeout=20,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/backUp/xmSports.js
 
 饿了么_领取吃货豆 = type=cron,cronexp="10 00 03 * * *",timeout=60,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.js
