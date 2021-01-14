@@ -42,7 +42,7 @@
 
 京东赚赚 = type=cron,cronexp="0 0 * * *",wake-system=1,timeout=20,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_jdzz.js
 
-京豆变动通知 = type=cron,cronexp="2 9 * * *",wake-system=1,timeout=440,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_bean_change.js
+京豆变动通知 = type=cron,cronexp="24 0 * * *",wake-system=1,timeout=440,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_bean_change.js
 
 京喜工厂 = type=cron,cronexp="10 * * * *",wake-system=1,timeout=20,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_dreamFactory.js
 
