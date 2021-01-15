@@ -7,6 +7,8 @@
 
 京东 = type=cron,cronexp="2,6 0 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
 
+获取并提交助力码 = type=cron,cronexp="0 35 2 1,10,20 * ?",wake-system=1,timeout=120,script-path=https://gitee.com/qq34347476/quantumult-x/raw/master/get_share_jd_code.js
+
 # 京东活动
 东东农场 = type=cron,cronexp="5 6-18/6 * * *",wake-system=1,timeout=120,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_fruit.js
 
