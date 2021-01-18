@@ -112,6 +112,9 @@ CrazyJoy任务 = type=cron,cronexp="25 0 * * *",wake-system=1,timeout=20,script-
 
 工业品爱消除 = type=cron,cronexp="27 * * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/shylocks/jd_scripts/Loon/jd_gyec.js
 
+直播间红包雨 = type=cron,cronexp="0,1 19-21/1 * * *",wake-system=1,timeout=200,script-path=https://raw.githubusercontent.com/shylocks/Loon/main/jd_live_redrain2.js
+
+京东炸年兽🧨 = type=cron,cronexp="29 * * * *",wake-system=1,timeout=200,script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_nianCollect.js
 
 #iisams
 京东特权值 = type=cron,cronexp="18 0 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/iisams/Scripts/master/liwo/jdtqz.js
