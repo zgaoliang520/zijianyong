@@ -3,7 +3,7 @@
 #!system=ios
 
 [MITM]
-hostname = %APPEND% wapside.189.cn:9001,*.feng.com,draw.jdfcloud.com,weather-data.apple.com,api.weather.com,draw.jdfcloud.com,passport.biligame.com,c.tieba.baidu.com,www.52pojie.cn,h5.ele.me,account.huami.com,api.didialift.com,bosp-api.xiaojukeji.com,as.xiaojukeji.com,manhattan.webapp.xiaojukeji.com,pay.diditaxi.com.cn, daojia.jd.com, nebula.kuaishou.com, *.rr.tv, tieba.baidu.com, *.video.qq.com,v.qq.com, mobwsa.ximalaya.com, *.rrys2020.com,ios.zmzapi.com, ifac*.iqiyi.com, api.m.jd.com, account.huami.com, wq.jd.com, www.xiaodouzhuan.cn, *.youth.cn,ios.baertt.com,commontgw6.reader.qq.com,eventv3.reader.qq.com, app.kxp.com, veishop.iboxpay.com, *.tenpay.com
+hostname = %APPEND% wapside.189.cn:9001,*.feng.com,draw.jdfcloud.com,weather-data.apple.com,api.weather.com,draw.jdfcloud.com,passport.biligame.com,c.tieba.baidu.com,www.52pojie.cn,h5.ele.me,account.huami.com,api.didialift.com,bosp-api.xiaojukeji.com,as.xiaojukeji.com,manhattan.webapp.xiaojukeji.com,pay.diditaxi.com.cn, daojia.jd.com, nebula.kuaishou.com, *.rr.tv, tieba.baidu.com, *.video.qq.com,v.qq.com, mobwsa.ximalaya.com, *.rrys2020.com,ios.zmzapi.com, ifac*.iqiyi.com, api.m.jd.com, account.huami.com, wq.jd.com, www.xiaodouzhuan.cn, *.youth.cn,ios.baertt.com,commontgw6.reader.qq.com,eventv3.reader.qq.com, app.kxp.com, veishop.iboxpay.com, *.tenpay.com, i.meituan.com
 [Script]
 #自加
 
@@ -84,3 +84,6 @@ hostname = %APPEND% wapside.189.cn:9001,*.feng.com,draw.jdfcloud.com,weather-dat
 
 #获取京东微信ck（wq.jd.com）
 获取京东微信ck = type=http-request,pattern=^https:\/\/wq\.jd\.com\/bases\/jssdk\/GetWxJsApiSign,script-path=https://raw.githubusercontent.com/shylocks/Loon/main/jd_wechat_sign.js
+
+#美团（i.meituan.com）
+美团ck = type=http-request,pattern=^https:\/\/i.meituan.com\/evolve\/signin\/signpost\/,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.cookie.js
