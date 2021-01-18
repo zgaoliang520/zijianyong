@@ -147,9 +147,8 @@ CrazyJoy任务 = type=cron,cronexp="25 0 * * *",wake-system=1,timeout=20,script-
 # 打开浏览器访问: https://www.feng.com`(先登录! 把页面切换为电脑版)`
 威锋网 = type=cron,cronexp="20 22 00 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/feng/feng.js
 
-饿了么_领取吃货豆 = type=cron,cronexp="10 00 03 * * *",timeout=60,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.js
-
-饿了么_领取任务 = type=cron,cronexp="10 10 03 * * *",timeout=60,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_mission.js
+#美团打开 APP , 然后手动签到 1 次, 系统提示: 获取Cookie: 成功 (首页 > 红包签到
+美团 = type=cron,cronexp="20 22 00 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js
 
 
 # 薅
