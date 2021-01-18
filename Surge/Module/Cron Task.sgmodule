@@ -110,7 +110,7 @@ CrazyJoy任务 = type=cron,cronexp="25 0 * * *",wake-system=1,timeout=20,script-
 
 京东粉丝专享 = type=cron,cronexp="26 0 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/shylocks/Loon/main/jd_wechat_sign.js
 
-工业品爱消除 = type=cron,cronexp="27 * * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/shylocks/jd_scripts/Loon/jd_gyec.js
+工业品爱消除 = type=cron,cronexp="27 * * * *",wake-system=1,timeout=20,script-path= https://raw.githubusercontent.com/shylocks/Loon/main/jd_gyec.js
 
 直播间红包雨 = type=cron,cronexp="0,1 19-21/1 * * *",wake-system=1,timeout=200,script-path=https://raw.githubusercontent.com/shylocks/Loon/main/jd_live_redrain2.js
 
