@@ -116,6 +116,8 @@ CrazyJoy任务 = type=cron,cronexp="25 0 * * *",wake-system=1,timeout=20,script-
 
 京东炸年兽🧨 = type=cron,cronexp="29 * * * *",wake-system=1,timeout=200,script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_nianCollect.js
 
+小鸽有礼 = type=cron,cronexp="30 0 * * *",wake-system=1,timeout=200,script-path=https://raw.githubusercontent.com/shylocks/Loon/main/jd_xg.js
+
 #iisams
 京东特权值 = type=cron,cronexp="18 0 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/iisams/Scripts/master/liwo/jdtqz.js
 
