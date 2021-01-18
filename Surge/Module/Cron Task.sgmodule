@@ -148,7 +148,7 @@ CrazyJoy任务 = type=cron,cronexp="25 0 * * *",wake-system=1,timeout=20,script-
 威锋网 = type=cron,cronexp="20 22 00 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/feng/feng.js
 
 #美团打开 APP , 然后手动签到 1 次, 系统提示: 获取Cookie: 成功 (首页 > 红包签到
-美团 = type=cron,cronexp="20 22 00 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js
+美团 = type=cron,cronexp="40 22 00 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js
 
 
 # 薅
