@@ -58,8 +58,5 @@ APP下载加速•JS = type=dns,script-path=https://raw.githubusercontent.com/la
 # PicsArt美易 pro（api.picsart.c*, api.meiease.c*）
 PicsArt美易 = type=http-response,pattern=^https:\/\/api\.(picsart|meiease)\.c(n|om)\/users\/show\/me\.json,requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/PicsArt.js
 
-# > 驾校一点通 (vipapi.jxedt.com)
-jxydt.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/jxydt.js,type=http-response,pattern=^https:\/\/vipapi\.jxedt\.com\/vip\/check
-
 [MITM]
-hostname = %APPEND% vipapi.jxedt.com,api.picsart.c*, api.meiease.c*,claritywallpaper.com,*.amemv.com,api.weibo.cn,mapi.weibo.com,*.uve.weibo.com,trade-acs.m.taobao.com,api.m.jd.com,ios.prod.ftl.netflix.com,m.pearkin.com,ayk.tmdidi.com,m.pearkin.com,1008610010.yohui.vip,*.xxjjappss.com,*.huaerdadi.com,myiconisme.com,vip07.tr102.com,weixin110.qq.com,vip1.kuwo.cn,mp.weixin.qq.com
+hostname = %APPEND% api.picsart.c*, api.meiease.c*,claritywallpaper.com,*.amemv.com,api.weibo.cn,mapi.weibo.com,*.uve.weibo.com,trade-acs.m.taobao.com,api.m.jd.com,ios.prod.ftl.netflix.com,m.pearkin.com,ayk.tmdidi.com,m.pearkin.com,1008610010.yohui.vip,*.xxjjappss.com,*.huaerdadi.com,myiconisme.com,vip07.tr102.com,weixin110.qq.com,vip1.kuwo.cn,mp.weixin.qq.com
