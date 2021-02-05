@@ -4,8 +4,32 @@
 
 [Script]
 彩云天气 = type=cron,cronexp=30 8-22 * * *,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js
+# 签到
+滴滴出行 = type=cron,cronexp="00 19 00 * * *",wake-system=1,timeout=120,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js
+
+京东到家 = type=cron,cronexp="30 19 00 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jddj.js
+
+快手极速版 = type=cron,cronexp="00 20 00 * * *",wake-system=1,timeout=30,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/kuaishou.js
+
+人人视频 = type=cron,cronexp="20 20 00 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/rrtv/rrtv.js
+
+百度贴吧 = type=cron,cronexp="40 20 00 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/ChuheGit/1/main/Script/tieba.js
+
+腾讯视频 = type=cron,cronexp="00 21 00 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js
+
+爱奇艺 = type=cron,cronexp="20 21 00 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
+
+吾爱破解 = type=cron,cronexp="40 21 00 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js
+
+电信营业厅签到 = type=cron,cronexp="00 22 00 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.js
+
+# 威锋网
+# 打开浏览器访问: https://www.feng.com`(先登录! 把页面切换为电脑版)`
+威锋网 = type=cron,cronexp="20 22 00 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/feng/feng.js
 
 京东 = type=cron,cronexp="2,6 0 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
+
+京喜 = type=cron,cronexp="5 0 * * *",wake-system=1,timeout=3600,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jx_sign.js
 
 # 京东活动
 东东农场 = type=cron,cronexp="5 6-18/6 * * *",wake-system=1,timeout=120,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_fruit.js
@@ -80,21 +104,11 @@ CrazyJoy任务 = type=cron,cronexp="10 7 * * *",wake-system=1,timeout=20,script-
 
 京东炸年兽 = type=cron,cronexp="0 8,9,10 * * *",wake-system=1,timeout=22200,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_nian.js
 
-炸年兽收爆竹 = type=cron,cronexp="20 * * * *",wake-system=1,timeout=200,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_nianCollect.js
+京东神仙书院 = type=cron,cronexp="20 8,12,22 * * *",wake-system=1,timeout=2000,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_immortal.js
 
-炸年兽AR = type=cron,cronexp="0 9 * * *",wake-system=1,timeout=36000,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_nian_ar.js
-
-炸年兽签到任务 = type=cron,cronexp="30 8 * * *",wake-system=1,timeout=3600,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_nian_sign.js
-
-炸年兽小程序 = type=cron,cronexp="50 8 * * *",wake-system=1,timeout=3600,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_nian_wechat.js
-
-京东神仙书院 = type=cron,cronexp="0 8 * * *",wake-system=1,timeout=2000,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_immortal.js
-
-神仙书院答题 = type=cron,cronexp="20 8 * * *",wake-system=1,timeout=3600,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_immortal_answer.js
+神仙书院答题 = type=cron,cronexp="20 * * * *",wake-system=1,timeout=3600,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_immortal_answer.js
 
 闪购盲盒 = type=cron,cronexp="20 8 * * *",wake-system=1,timeout=3600,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_sgmh.js
-
-5G狂欢城 = type=cron,cronexp="0 0,6,12,18 * * *",wake-system=1,timeout=3600,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_5g.js
 
 小鸽有礼2 = type=cron,cronexp="30 7 * * *",wake-system=1,timeout=3600,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_xgyl.js
 
@@ -112,8 +126,6 @@ CrazyJoy任务 = type=cron,cronexp="10 7 * * *",wake-system=1,timeout=20,script-
 
 京东超级盒子 = type=cron,cronexp="20 7 * * *",wake-system=1,timeout=3600,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_super_box.js
 
-超级直播间红包雨 = type=cron,cronexp="30,31 20-23/1 * * *",wake-system=1,timeout=200,script-path=http://qnn9kdmd1.hn-bkt.clouddn.com/jd_live_redrain.js
-
 京东压岁钱 = type=cron,cronexp="20 8,12 * * *",wake-system=1,timeout=3600,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_newYearMoney.js
 
 京东压岁钱抢百元卡 = type=cron,cronexp="0 0 9,12,16,20 * * *",wake-system=1,timeout=3600,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_newYearMoney_lottery.js
@@ -121,8 +133,6 @@ CrazyJoy任务 = type=cron,cronexp="10 7 * * *",wake-system=1,timeout=20,script-
 抽奖机 = type=cron,cronexp="11 1 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_lotteryMachine.js
 
 排行榜 = type=cron,cronexp="11 9 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_rankingList.js
-
-白条领券 = type=cron,cronexp="0 0,9 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_baiTiao.js
 
 京喜工厂plus = type=cron,cronexp="0 1,18 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_factory_component.js
 
@@ -133,34 +143,8 @@ CrazyJoy任务 = type=cron,cronexp="10 7 * * *",wake-system=1,timeout=20,script-
 京喜财富岛 = type=cron,cronexp="0 * * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/moposmall/Script/main/Me/jx_cfd.js
 
 京喜财富岛兑换提醒 = type=cron,cronexp="30 6,12,22 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/moposmall/Script/main/Me/jx_cfd_exchange.js
-
 #iisams
 京东特权值 = type=cron,cronexp="25 0 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/iisams/Scripts/master/liwo/jdtqz.js
-
-# 签到
-滴滴出行 = type=cron,cronexp="00 19 00 * * *",wake-system=1,timeout=120,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js
-
-京东到家 = type=cron,cronexp="30 19 00 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jddj.js
-
-京喜 = type=cron,cronexp="50 19 00 * * *",wake-system=1,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jx_sign.js
-
-快手极速版 = type=cron,cronexp="00 20 00 * * *",wake-system=1,timeout=30,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/kuaishou.js
-
-人人视频 = type=cron,cronexp="20 20 00 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/rrtv/rrtv.js
-
-百度贴吧 = type=cron,cronexp="40 20 00 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/ChuheGit/1/main/Script/tieba.js
-
-腾讯视频 = type=cron,cronexp="00 21 00 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js
-
-爱奇艺 = type=cron,cronexp="20 21 00 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
-
-吾爱破解 = type=cron,cronexp="40 21 00 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js
-
-电信营业厅签到 = type=cron,cronexp="00 22 00 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.js
-
-# 威锋网
-# 打开浏览器访问: https://www.feng.com`(先登录! 把页面切换为电脑版)`
-威锋网 = type=cron,cronexp="20 22 00 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/feng/feng.js
 
 # 薅
 百度极速版 = type=cron,cronexp="30 6-23 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/baidu_speed.js
