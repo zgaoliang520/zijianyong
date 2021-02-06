@@ -3,7 +3,7 @@
 #!system=ios
 
 [MITM]
-hostname = %APPEND% wapside.189.cn:9001,*.feng.com,draw.jdfcloud.com,weather-data.apple.com,api.weather.com,draw.jdfcloud.com,passport.biligame.com,c.tieba.baidu.com,www.52pojie.cn,h5.ele.me,account.huami.com,api.didialift.com,bosp-api.xiaojukeji.com,as.xiaojukeji.com,manhattan.webapp.xiaojukeji.com,pay.diditaxi.com.cn, daojia.jd.com, nebula.kuaishou.com, *.rr.tv, tieba.baidu.com, *.video.qq.com,v.qq.com, mobwsa.ximalaya.com, *.rrys2020.com,ios.zmzapi.com, ifac*.iqiyi.com, api.m.jd.com, account.huami.com, wq.jd.com, www.xiaodouzhuan.cn, *.youth.cn,ios.baertt.com,commontgw6.reader.qq.com,eventv3.reader.qq.com, app.kxp.com, *.tenpay.com, i.meituan.com, bububao.duoshoutuan.com, huodong.fanli.com, passport.fanli.com, gw.fanli.com
+hostname = %APPEND% wapside.189.cn:9001,*.feng.com,draw.jdfcloud.com,weather-data.apple.com,api.weather.com,draw.jdfcloud.com,passport.biligame.com,c.tieba.baidu.com,www.52pojie.cn,h5.ele.me,account.huami.com,api.didialift.com,bosp-api.xiaojukeji.com,as.xiaojukeji.com,manhattan.webapp.xiaojukeji.com,pay.diditaxi.com.cn, daojia.jd.com, nebula.kuaishou.com, *.rr.tv, tieba.baidu.com, *.video.qq.com,v.qq.com, mobwsa.ximalaya.com, *.rrys2020.com,ios.zmzapi.com, ifac*.iqiyi.com, api.m.jd.com, account.huami.com, wq.jd.com, www.xiaodouzhuan.cn, *.youth.cn,ios.baertt.com,commontgw6.reader.qq.com,eventv3.reader.qq.com, app.kxp.com, *.tenpay.com, i.meituan.com, bububao.duoshoutuan.com, huodong.fanli.com, passport.fanli.com, gw.fanli.com, m.jingxi.com
 
 [Script]
 #自加
@@ -81,9 +81,6 @@ hostname = %APPEND% wapside.189.cn:9001,*.feng.com,draw.jdfcloud.com,weather-dat
 腾讯自选股 = type=http-request,pattern=https://wzq.tenpay.com/resources/vtools,script-path=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txs_cookie.js
 腾讯自选股 = type=http-request,pattern=https://wzq.tenpay.com/cgi-bin/activity_usercenter.fcgi?,script-path=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txs_cookie.js
 
-#获取京东微信ck（wq.jd.com）
-获取京东微信ck = type=http-request,pattern=^https:\/\/wq\.jd\.com\/bases\/jssdk\/GetWxJsApiSign,script-path=https://raw.githubusercontent.com/shylocks/Loon/main/jd_wechat_sign.js
-
 #美团（i.meituan.com）
 美团ck = type=http-request,pattern=^https:\/\/i.meituan.com\/evolve\/signin\/signpost\/,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.cookie.js
 
@@ -94,3 +91,7 @@ hostname = %APPEND% wapside.189.cn:9001,*.feng.com,draw.jdfcloud.com,weather-dat
 返利网获取header = type=http-request,pattern=https:\/\/(huodong\.fanli\.com\/*||passport\.fanli\.com\/*||gw\.fanli\.com\/*),script-path=https://raw.githubusercontent.com/ziye12/JavaScript/main/Task/flw.js
 返利网获取body = type=http-request,pattern=https:\/\/(huodong\.fanli\.com\/*||passport\.fanli\.com\/*||gw\.fanli\.com\/*),requires-body=1,script-path=https://raw.githubusercontent.com/ziye12/JavaScript/main/Task/flw.js
 
+#京喜（wq.jd.com, m.jingxi.com）
+京喜token = type=http-request,pattern=^https\:\/\/wq\.jd\.com\/cubeactive\/farm\/dotask,script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_tokens.js
+京喜token = type=http-request,pattern=^https\:\/\/m\.jingxi\.com\/dreamfactory\/generator\/CollectCurrentElectricity,script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_tokens.js
+京喜token = type=http-request,pattern=^https\:\/\/m\.jingxi\.com\/jxcfd\/consume\/CashOut,script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_tokens.js
