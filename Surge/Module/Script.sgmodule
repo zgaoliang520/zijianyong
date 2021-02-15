@@ -75,5 +75,7 @@ PicsArt美易 = type=http-response,pattern=^https:\/\/api\.(picsart|meiease)\.c(
 #咪哩视频（awmattack.*.com）
 咪哩视频 = type=http-response,pattern=^https:\/\/awmattack\.(.+)\.com\/(api/member/info|api/video/video/video_play),requires-body=1,script-path=https://raw.githubusercontent.com/zgaoliang520/zijianyong/master/MY-Script/mlsp.js
 
+#辣椒解锁会员去广告（ jk.5apk.cn）
+辣椒解锁会员 = type=http-response,pattern=^http:\/\/jk\.5apk\.cn\/api\/(base|modulesData|reg|play),requires-body=1,script-path=https://raw.githubusercontent.com/zgaoliang520/zijianyong/master/MY-Script/lajiao.js
 [MITM]
-hostname = %APPEND% awmattack.*.com, api.bilibili.com, baimiao.uzero.cn, pan.baidu.com, api1000.cvxia.com, api.bjxkhc.com, api.picsart.c*, api.meiease.c*,claritywallpaper.com,*.amemv.com,api.weibo.cn,mapi.weibo.com,*.uve.weibo.com,trade-acs.m.taobao.com,api.m.jd.com,ios.prod.ftl.netflix.com,m.pearkin.com,ayk.tmdidi.com,m.pearkin.com,1008610010.yohui.vip,*.xxjjappss.com,*.huaerdadi.com,myiconisme.com,vip07.tr102.com,weixin110.qq.com,vip1.kuwo.cn,mp.weixin.qq.com
+hostname = %APPEND% jk.5apk.cn, awmattack.*.com, api.bilibili.com, baimiao.uzero.cn, pan.baidu.com, api1000.cvxia.com, api.bjxkhc.com, api.picsart.c*, api.meiease.c*,claritywallpaper.com,*.amemv.com,api.weibo.cn,mapi.weibo.com,*.uve.weibo.com,trade-acs.m.taobao.com,api.m.jd.com,ios.prod.ftl.netflix.com,m.pearkin.com,ayk.tmdidi.com,m.pearkin.com,1008610010.yohui.vip,*.xxjjappss.com,*.huaerdadi.com,myiconisme.com,vip07.tr102.com,weixin110.qq.com,vip1.kuwo.cn,mp.weixin.qq.com
