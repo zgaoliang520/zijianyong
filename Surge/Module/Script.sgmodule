@@ -76,7 +76,7 @@ PicsArt美易 = type=http-response,pattern=^https:\/\/api\.(picsart|meiease)\.c(
 哔哩哔哩番剧开启1080P+ = type=http-response,pattern=^https:\/\/ap(p|i)\.bilibili\.com\/((pgc\/player\/api\/playurl)|(x\/v2\/account\/myinfo\?)|(x\/v2\/account/mine\?)),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/bilifj.js
 
 #咪哩视频（awmattack.*.com）
-咪哩视频 = type=http-response,pattern=^https:\/\/awmattack\.(.+)\.com\/(api/member/info|api/video/video/video_play),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zgaoliang520/zijianyong/master/MY-Script/mlsp.js
+咪哩视频 = type=http-response,pattern=^https:\/\/awmattack\.(.+)\.com\/(api/member/info|api/video/video/video_play),requires-body=1,max-size=0,script-path=https://github.com/zgaoliang520/zijianyong/blob/master/MY-Script/mlsp.js
 
 [MITM]
 hostname = %APPEND% awmattack.*.com, api.bilibili.com, baimiao.uzero.cn, pan.baidu.com, api1000.cvxia.com, api.bjxkhc.com, api.picsart.c*, api.meiease.c*,claritywallpaper.com,*.amemv.com,api.weibo.cn,mapi.weibo.com,*.uve.weibo.com,trade-acs.m.taobao.com,api.m.jd.com,ios.prod.ftl.netflix.com,m.pearkin.com,ayk.tmdidi.com,m.pearkin.com,1008610010.yohui.vip,*.xxjjappss.com,*.huaerdadi.com,myiconisme.com,vip07.tr102.com,weixin110.qq.com,vip1.kuwo.cn,mp.weixin.qq.com
