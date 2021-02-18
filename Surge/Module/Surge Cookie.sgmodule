@@ -3,7 +3,7 @@
 #!system=ios
 
 [MITM]
-hostname = %APPEND% wapside.189.cn:9001,*.feng.com,draw.jdfcloud.com,weather-data.apple.com,api.weather.com,draw.jdfcloud.com,passport.biligame.com,c.tieba.baidu.com,www.52pojie.cn,h5.ele.me,account.huami.com,api.didialift.com,bosp-api.xiaojukeji.com,as.xiaojukeji.com,manhattan.webapp.xiaojukeji.com,pay.diditaxi.com.cn, daojia.jd.com, nebula.kuaishou.com, *.rr.tv, tieba.baidu.com, *.video.qq.com,v.qq.com, mobwsa.ximalaya.com, *.rrys2020.com,ios.zmzapi.com, ifac*.iqiyi.com, api.m.jd.com, account.huami.com, wq.jd.com, www.xiaodouzhuan.cn, *.youth.cn,ios.baertt.com,commontgw6.reader.qq.com,eventv3.reader.qq.com, app.kxp.com, *.tenpay.com, i.meituan.com, bububao.duoshoutuan.com, huodong.fanli.com, passport.fanli.com, gw.fanli.com, m.jingxi.com,api.sxsjyzm.com
+hostname = %APPEND% wapside.189.cn:9001,*.feng.com,draw.jdfcloud.com,weather-data.apple.com,api.weather.com,draw.jdfcloud.com,passport.biligame.com,c.tieba.baidu.com,www.52pojie.cn,h5.ele.me,account.huami.com,api.didialift.com,bosp-api.xiaojukeji.com,as.xiaojukeji.com,manhattan.webapp.xiaojukeji.com,pay.diditaxi.com.cn, daojia.jd.com, nebula.kuaishou.com, *.rr.tv, tieba.baidu.com, *.video.qq.com,v.qq.com, mobwsa.ximalaya.com, *.rrys2020.com,ios.zmzapi.com, ifac*.iqiyi.com, api.m.jd.com, account.huami.com, wq.jd.com, www.xiaodouzhuan.cn, *.youth.cn,ios.baertt.com,commontgw6.reader.qq.com,eventv3.reader.qq.com, app.kxp.com, *.tenpay.com, i.meituan.com, bububao.duoshoutuan.com, m.jingxi.com,api.sxsjyzm.com
 
 [Script]
 #自加
@@ -84,10 +84,6 @@ hostname = %APPEND% wapside.189.cn:9001,*.feng.com,draw.jdfcloud.com,weather-dat
 
 #步步高（bububao.duoshoutuan.com）
 步步宝 = type=http-request,pattern=https://bububao.duoshoutuan.com/user/profile,script-path=https://raw.githubusercontent.com/adwktt/adwktt/master/BBB.js
-
-#返利网获取（huodong.fanli.com,passport.fanli.com,gw.fanli.com）
-返利网获取header = type=http-request,pattern=https:\/\/(huodong\.fanli\.com\/*||passport\.fanli\.com\/*||gw\.fanli\.com\/*),script-path=https://raw.githubusercontent.com/ziye12/JavaScript/main/Task/flw.js
-返利网获取body = type=http-request,pattern=https:\/\/(huodong\.fanli\.com\/*||passport\.fanli\.com\/*||gw\.fanli\.com\/*),requires-body=1,script-path=https://raw.githubusercontent.com/ziye12/JavaScript/main/Task/flw.js
 
 #京喜（wq.jd.com, m.jingxi.com）
 京喜token = type=http-request,pattern=^https\:\/\/wq\.jd\.com\/cubeactive\/farm\/dotask,script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_tokens.js
