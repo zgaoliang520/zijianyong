@@ -86,8 +86,6 @@
 
 京东快递签到 = type=cron,cronexp="10 0 * * *",wake-system=1,timeout=20,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_kd.js
 
-京东直播 = type=cron,cronexp="10-20/5 12 * * *",wake-system=1,timeout=20,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_live.js
-
 京东金融-天天提鹅 = type=cron,cronexp="0 */3 * * *",wake-system=1,timeout=20,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_daily_egg.js
 
 京东金融-养猪猪 = type=cron,cronexp="12 * * * *",wake-system=1,timeout=100,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_pigPet.js
@@ -105,8 +103,6 @@ CrazyJoy任务 = type=cron,cronexp="10 7 * * *",wake-system=1,timeout=20,script-
 获取互助码 = type=cron,cronexp="20 13 * * 6",wake-system=1,timeout=120,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_get_share_code.js
 
 小米运动 = type=cron,cronexp="15 19 * * *",wake-system=1,timeout=20,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/backUp/xmSports.js
-
-小鸽有礼 = type=cron,cronexp="5 7 * * *",wake-system=1,timeout=200,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_xg.js
 
 京东秒秒币 = type=cron,cronexp="10 7 * * *",wake-system=1,timeout=200,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_ms.js
 
@@ -126,11 +122,7 @@ CrazyJoy任务 = type=cron,cronexp="10 7 * * *",wake-system=1,timeout=20,script-
 
 环球挑战赛 = type=cron,cronexp="0 9,12,20,21 * * *",wake-system=1,timeout=3600,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_global.js
 
-京东国际盲盒 = type=cron,cronexp="0 9,12,20,21 * * *",wake-system=1,timeout=3600,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_global_mh.js
-
 京东小魔方 = type=cron,cronexp="10 20 10-13 2 *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/i-chenzhe/qx/master/jd_xmf.js
-
-沃尔玛粉丝互动 = type=cron,cronexp="3 10 17-28 2 *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_walmart.js
 
 百变大咖秀 = type=cron,cronexp="10 10,11 * * 2-5",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_entertainment.js
 
