@@ -120,8 +120,8 @@ crazyJoy任务 = type=cron,cronexp="10 7 * * *",wake-system=1,timeout=3600,scrip
 
 步步宝 = type=cron,cronexp="0 8-23/2 * * *",wake-system=1,timeout=30,script-path=https://raw.githubusercontent.com/adwktt/adwktt/master/BBB.js
 
-多看点日常 = type=cron,cronexp="*/10 * * * *",wake-system=1,timeout=30,script-path=https://raw.githubusercontent.com/age174/-/main/dkd.js
+多看点ziye版 = type=cron,cronexp="*/10 * * * *",wake-system=1,timeout=30,script-path=https://raw.githubusercontent.com/ziye66666/JavaScript/main/Task/duokandian.js
 
-多看点视频 = type=cron,cronexp="5 9,16,21 * * *",wake-system=1,timeout=30,script-path=https://raw.githubusercontent.com/age174/-/main/dkdsp.js
+笑谱ziye版 = type=cron,cronexp="*/6 * * * *",wake-system=1,timeout=30,script-path=https://raw.githubusercontent.com/ziye66666/JavaScript/main/Task/iboxpay.js
 
 芝嫲视频 = type=cron,cronexp="15 50 3 * * *",wake-system=1,timeout=30,script-path=https://raw.githubusercontent.com/age174/-/main/zmsp.js
