@@ -52,7 +52,7 @@
 京喜token = type=http-request,pattern=^https\:\/\/m\.jingxi\.com\/dreamfactory\/generator\/CollectCurrentElectricity,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_tokens.js
 京喜token = type=http-request,pattern=^https\:\/\/m\.jingxi\.com\/jxcfd\/consume\/CashOut,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_tokens.js
 
-# Sunert（*.youth.cn, ios.baertt.com）
+# Sunert（kd.youth.cn, ios.baertt.com）
 # 食用方法
 # 1：进入[重写]-[引用]
 # 启用「中青cookie获取」、禁用「中青阅读Body获取」
@@ -64,10 +64,10 @@
 # 阅读一篇文章或者视频到获取金币奖励通知：获取body成功
 # 手动执行一次「中青自动阅读」 看脚本是否运行正常
 # 3：抽空阅读文章或视频，获取更多的body
-中青看点 = type=http-request,pattern=https:\/\/\w+\.youth\.cn\/TaskCenter\/(sign|getSign),script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js
-中青看点 = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/article\/complete,requires-body=1,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js
-中青看点 = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/article\/red_packet,requires-body=1,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js
-中青看点 = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/user\/app_stay\.json,requires-body=1,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js
+中青看点 = type=http-request,pattern=https:\/\/kd\.youth\.cn\/WebApi\/NewTaskIos\/getTaskList,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js
+中青看点 = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/article\/info\/get\.json,requires-body=1,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js
+中青看点 = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/user\/stay\.json,requires-body=1,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js
+中青看点 = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/\w+\/withdraw\d?\.json,requires-body=1,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js
 中青浏览赚 = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/task\/browse_(start|end)\.json,requires-body=1,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth_gain.js
 
 # 获取京东到家（daojia.jd.com）APP登陆账号后，点击首页'签到',即可获取Cookie
@@ -146,4 +146,4 @@
 TT语音 = type=http-request,pattern=https://node.52tt.com/activity-production/new-user-month-checkin/activity.Checkin/checkin,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/TT.js
 
 [MITM]
-hostname = %APPEND% weather-data.apple.com, api.weather.com, ifac*.iqiyi.com, www.52pojie.cn, api.m.jd.com, passport.biligame.com, c.tieba.baidu.com, draw.jdfcloud.com, *.feng.com, wapside.189.cn:9001, *.video.qq.com, *.rr.tv, wq.jd.com, account.huami.com, wq.jd.com, m.jingxi.com, *.youth.cn, ios.baertt.com, daojia.jd.com, api.didialift.com, bosp-api.xiaojukeji.com, as.xiaojukeji.com, manhattan.webapp.xiaojukeji.com, pay.diditaxi.com.cn, bububao.duoshoutuan.com, api.sxsjyzm.com, app.kxp.com, veishop.iboxpay.com, *.tenpay.com, huodong.fanli.com, passport.fanli.com, gw.fanli.com, node.52tt.com
+hostname = %APPEND% weather-data.apple.com, api.weather.com, ifac*.iqiyi.com, www.52pojie.cn, api.m.jd.com, passport.biligame.com, c.tieba.baidu.com, draw.jdfcloud.com, *.feng.com, wapside.189.cn:9001, *.video.qq.com, *.rr.tv, wq.jd.com, account.huami.com, wq.jd.com, m.jingxi.com, kd.youth.cn, ios.baertt.com, daojia.jd.com, api.didialift.com, bosp-api.xiaojukeji.com, as.xiaojukeji.com, manhattan.webapp.xiaojukeji.com, pay.diditaxi.com.cn, bububao.duoshoutuan.com, api.sxsjyzm.com, app.kxp.com, veishop.iboxpay.com, *.tenpay.com, huodong.fanli.com, passport.fanli.com, gw.fanli.com, node.52tt.com
