@@ -131,5 +131,18 @@
 腾讯自选股 = type=http-request,pattern=https://wzq.tenpay.com/resources/vtools,script-path=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txs_cookie.js
 腾讯自选股 = type=http-request,pattern=https://wzq.tenpay.com/cgi-bin/activity_usercenter.fcgi?,script-path=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txs_cookie.js
 
+# 返利网（huodong.fanli.com,passport.fanli.com,gw.fanli.com）
+# 点击 我的 获取flwurlValflwurlVal 👉FL_flwURL
+# 点击 首页 签到赚钱 获取flwheaderValflwheaderVal 👉FL_flwHEADER
+# 注释header重写 点击 首页 签到赚钱 视频任务 获取flwspbodyValflwurlVal 👉FL_flwspBODY
+# 注释header重写 点击 首页 签到赚钱 火山热门视频 获取flwqwbodyValflwqwbodyVal 👉FL_flwqwBODY
+# 设置提现变量 可设置 0.3以上 务必关注官方公众号，并且手动领取红包CASH  👉  FL_CASH
+# 设置兑换变量 可设置0 5 50 100   默认0  不兑换DHCASH  👉  FL_DHCASH
+# 注释header重写 点击 首页 签到赚钱 去阅读赚钱 看文章 获取flwydbodyVal（最多20个body）flwydbodyVal 👉FL_flwydBODY
+
+返利网获取header = type=http-request,pattern=https:\/\/(huodong\.fanli\.com\/*||passport\.fanli\.com\/*||gw\.fanli\.com\/*),script-path=https://raw.githubusercontent.com/ziye66666/JavaScript/main/Task/flw.js
+返利网获取body = type=http-request,pattern=https:\/\/(huodong\.fanli\.com\/*||passport\.fanli\.com\/*||gw\.fanli\.com\/*),requires-body=1,script-path=https://raw.githubusercontent.com/ziye66666/JavaScript/main/Task/flw.js
+
+
 [MITM]
-hostname = %APPEND% weather-data.apple.com, api.weather.com, ifac*.iqiyi.com, www.52pojie.cn, api.m.jd.com, passport.biligame.com, c.tieba.baidu.com, draw.jdfcloud.com, *.feng.com, wapside.189.cn:9001, *.video.qq.com, *.rr.tv, wq.jd.com, account.huami.com, wq.jd.com, m.jingxi.com, *.youth.cn, ios.baertt.com, daojia.jd.com, api.didialift.com, bosp-api.xiaojukeji.com, as.xiaojukeji.com, manhattan.webapp.xiaojukeji.com, pay.diditaxi.com.cn, bububao.duoshoutuan.com, api.sxsjyzm.com, app.kxp.com, veishop.iboxpay.com, *.tenpay.com
+hostname = %APPEND% weather-data.apple.com, api.weather.com, ifac*.iqiyi.com, www.52pojie.cn, api.m.jd.com, passport.biligame.com, c.tieba.baidu.com, draw.jdfcloud.com, *.feng.com, wapside.189.cn:9001, *.video.qq.com, *.rr.tv, wq.jd.com, account.huami.com, wq.jd.com, m.jingxi.com, *.youth.cn, ios.baertt.com, daojia.jd.com, api.didialift.com, bosp-api.xiaojukeji.com, as.xiaojukeji.com, manhattan.webapp.xiaojukeji.com, pay.diditaxi.com.cn, bububao.duoshoutuan.com, api.sxsjyzm.com, app.kxp.com, veishop.iboxpay.com, *.tenpay.com, huodong.fanli.com, passport.fanli.com, gw.fanli.com
