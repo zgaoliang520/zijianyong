@@ -44,7 +44,39 @@
 # 登入小米运动(登录方式必须是手机号码+密码(没有就用手机号码注册),下面的第三方账号(小米账号,Apple,微信)授权登录不行)
 # 登录成功后在 我的->第三方接入->绑定支付宝,微信
 # 小米运动只要不退出登录，就会自动获取新的token,即永久有效
-小米运动获取Token = type=http-response,pattern=^https:\/\/account\.huami\.com\/v2\/client\/login, requires-body=1, max-size=0, script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/xmSports.js
+小米运动 = type=http-response,pattern=^https:\/\/account\.huami\.com\/v2\/client\/login,requires-body=1,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/xmSports.js
+
+
+# Sunert（*.youth.cn, ios.baertt.com）
+# 食用方法
+# 1：进入[重写]-[引用]
+# 启用「中青cookie获取」、禁用「中青阅读Body获取」
+# a：进入app-我的-任务中心-签到一次 获取签到cookie
+# b：阅读一篇文章或者视频到获取金币奖励 获取阅读请求body&阅读时长
+# c：在阅读文章拉下面有个惊喜红包，点击获取 获取惊喜红包
+# 手动执行一次「中青签到&转盘宝箱」 看签到是不是正常
+# 2：进入[重写]-[引用] 禁用「中青cookie获取」、启用「中青阅读Body获取」获取文章body
+# 阅读一篇文章或者视频到获取金币奖励通知：获取body成功
+# 手动执行一次「中青自动阅读」 看脚本是否运行正常
+# 3：抽空阅读文章或视频，获取更多的body
+中青看点 = type=http-request,pattern=https:\/\/\w+\.youth\.cn\/TaskCenter\/(sign|getSign),script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js
+中青看点 = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/article\/complete,requires-body=1,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js
+中青看点 = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/article\/red_packet,requires-body=1,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js
+中青看点 = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/user\/app_stay\.json,requires-body=1,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js
+中青浏览赚 = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/task\/browse_(start|end)\.json,requires-body=1,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth_gain.js
+
+# blackmatrix7（api.didialift.com,bosp-api.xiaojukeji.com,as.xiaojukeji.com,manhattan.webapp.xiaojukeji.com,pay.diditaxi.com.cn）
+# 获取Cookie 重新进入一次滴滴出行APP，即可获取Cookie。
+# 获取lid 抽奖需要获取lid，获取路径为滴滴左上角-钱包-我的钱包-福利金。
+# 获取ActivityId天天有奖，首次使用需要手动签到一次获取ActivityId和ChannelId，不获取会尝试使用内置的ActivityId和ChannelId。
+# 获取路径：滴滴出行 - 左侧菜单 - 钱包
+滴滴出行_获取Token = type=http-request,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js,pattern=^https?:\/\/api\.didialift\.com\/beatles\/userapi\/user\/user\/getuserinfo?.*city_id=(\d+).*token=([^&]*)
+滴滴出行_获取Ticket = type=http-request,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js,pattern=^https?:\/\/as\.xiaojukeji\.com\/ep\/as\/toggles\?.*location_cityid=(\d+).*&ticket=([^&]*)
+滴滴出行_获取LotteryId = type=http-request,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js,pattern=^https?:\/\/bosp-api\.xiaojukeji\.com\/bosp-api\/lottery\/info?.*lid=([^&]*)
+滴滴金融_获取ActivityId与ChannelId = type=http-response,requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js,pattern=^https?:\/\/pay\.diditaxi\.com\.cn\/web_wallet\/v2\/wallet\/home
+滴滴出行_获取GroupId = type=http-response,requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js,pattern=^https?:\/\/bosp-api\.xiaojukeji\.com\/wechat\/benefit\/public\/v2\/index
+
+
 
 [MITM]
-hostname = %APPEND% weather-data.apple.com, api.weather.com, ifac*.iqiyi.com, www.52pojie.cn, api.m.jd.com, passport.biligame.com, c.tieba.baidu.com, draw.jdfcloud.com, *.feng.com, wapside.189.cn:9001, *.video.qq.com, *.rr.tv, wq.jd.com, account.huami.com
+hostname = %APPEND% weather-data.apple.com, api.weather.com, ifac*.iqiyi.com, www.52pojie.cn, api.m.jd.com, passport.biligame.com, c.tieba.baidu.com, draw.jdfcloud.com, *.feng.com, wapside.189.cn:9001, *.video.qq.com, *.rr.tv, wq.jd.com, account.huami.com, *.youth.cn, ios.baertt.com, api.didialift.com, bosp-api.xiaojukeji.com, as.xiaojukeji.com, manhattan.webapp.xiaojukeji.com, pay.diditaxi.com.cn
