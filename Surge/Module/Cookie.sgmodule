@@ -87,11 +87,9 @@
 # 步步宝 （bububao.duoshoutuan.com）打开App获取Cookie
 步步宝 = type=http-request,pattern=https://bububao.duoshoutuan.com/user/profile,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/adwktt/adwktt/master/BBB.js
 
-# age174
-# 多看点（dkd-api.dysdk.com）点击我的获取Cookie
-多看点任务cookie = type=http-request,pattern=^http:\/\/dkd-api\.dysdk\.com\/user\/index,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/dkd.js
-#获取多看点提现Cookie
-多看点提现cookie = type=http-request,pattern=^http:\/\/dkd-api\.dysdk\.com\/money\/withdraw_do?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/dkd.js
+# ziye
+# 多看点（dkd-api.dysdk.com）点击我的获取Cookie 刷视频获取body，一个body一天可以只领取两次奖励
+多看点APP获取body = type=http-request,pattern=http:\/\/dkd-api\.dysdk\.com\/*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ziye66666/JavaScript/main/Task/duokandian.js
 
 # 芝嫲视频（api.sxsjyzm.com）首次运行脚本，会提示获取body 点击夺宝获取body
 芝嫲视频 = type=http-request,pattern=^https://api.sxsjyzm.com/api2/loot/index,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/zmsp.js
