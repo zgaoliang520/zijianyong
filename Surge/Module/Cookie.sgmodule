@@ -89,7 +89,7 @@
 
 # age174
 # 多看点（dkd-api.dysdk.com）点击我的获取Cookie 刷视频获取body，一个body一天可以只领取两次奖励
-多看点视频body = type=^http://dkd-api.dysdk.com/android_video/getaward,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/dkdbody.js
+多看点视频body = type=http-request,pattern=^http://dkd-api.dysdk.com/android_video/getaward,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/dkdbody.js
 
 # 芝嫲视频（api.sxsjyzm.com）首次运行脚本，会提示获取body 点击夺宝获取body
 芝嫲视频 = type=http-request,pattern=^https://api.sxsjyzm.com/api2/loot/index,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/zmsp.js
