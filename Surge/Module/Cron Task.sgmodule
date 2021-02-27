@@ -106,15 +106,16 @@ crazyJoy任务 = type=cron,cronexp="10 7 * * *",wake-system=1,timeout=3600,scrip
 #iisams
 京东特权值 = type=cron,cronexp="25 0 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/iisams/Scripts/master/liwo/jdtqz.js
 
+摇一摇 = type=cron,cronexp="3 20 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_shake.js
 
 # 薅
 百度极速版 = type=cron,cronexp="30 6-23 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/baidu_speed.js
 
-中青看点极速版 = type=cron,cronexp="*/10 6-23 * * *",wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js
+中青签到、宝箱 = type=cron,cronexp="15/30 * * * *",wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/ztxtop/x/main/youth.js
 
-中青看点自动阅读 = type=cron,cronexp="0 6-23 * * *",wake-system=1,timeout=7200,script-path=https://cdn.jsdelivr.net/gh/songyangzz/QuantumultX@master/YOUTH_READ.js
+中青看点自动阅读 = type=cron,cronexp="8/30 * 1-6 * * *",wake-system=1,timeout=7200,script-path=https://raw.githubusercontent.com/ztxtop/x/main/zqread.js
 
-中青看点浏览赚 = type=cron,cronexp="20 5 10 * * *",wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth_gain.js
+中青看看赚 = type=cron,cronexp="30 6 * * *",wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/ztxtop/x/main/youth_banner.js
 
 葱花视频 = type=cron,cronexp="*/30 6-23 * * *",wake-system=1,timeout=30,script-path=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/CONGHUA/chonghua.js
 
