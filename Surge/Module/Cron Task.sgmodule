@@ -23,6 +23,8 @@
 
 电信营业厅签到 = type=cron,cronexp="00 22 00 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.js
 
+电信套餐查询 = type=cron,cronexp="20 22 00 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/telecomInfinity.js
+
 # 威锋网
 # 打开浏览器访问: https://www.feng.com`(先登录! 把页面切换为电脑版)`
 威锋网 = type=cron,cronexp="20 22 00 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/feng/feng.js
