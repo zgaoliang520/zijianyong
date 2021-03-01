@@ -131,8 +131,8 @@
 # 第一步 添加  hostname=veishop.iboxpay.com,
 # 第二步 ⚠️添加笑谱获取更新TOKEN重写  
 # 登录笑谱(在登录状态就退出，重新登录)  获取更新TOKEN
-笑谱获取header = type=http-request,pattern=https:\/\/veishop\.iboxpay\.com\/*,script-path=https://raw.githubusercontent.com/ziye66666/JavaScript/main/Task/iboxpay.js
-笑谱获取更新TOKEN = type=http-request,pattern=https:\/\/veishop\.iboxpay\.com\/*,requires-body=1,script-path=https://raw.githubusercontent.com/ziye66666/JavaScript/main/Task/iboxpay.js
+笑谱获取header = type=http-request,pattern=https:\/\/veishop\.iboxpay\.com\/*,script-path=https://raw.githubusercontent.com/ziye11/JavaScript/main/Task/iboxpay.js
+笑谱获取更新TOKEN = type=http-request,pattern=https:\/\/veishop\.iboxpay\.com\/*,requires-body=1,script-path= https://raw.githubusercontent.com/ziye11/JavaScript/main/Task/iboxpay.js
 
 # 腾讯自选股（*.tenpay.com）
 # taskheader：打开app-立即获取
@@ -156,9 +156,8 @@
 # 设置提现变量 可设置 0.3以上 务必关注官方公众号，并且手动领取红包CASH  👉  FL_CASH
 # 设置兑换变量 可设置0 5 50 100   默认0  不兑换DHCASH  👉  FL_DHCASH
 # 注释header重写 点击 首页 签到赚钱 去阅读赚钱 看文章 获取flwydbodyVal（最多20个body）flwydbodyVal 👉FL_flwydBODY
-返利网获取header = type=http-request,pattern=https:\/\/(huodong\.fanli\.com\/*||passport\.fanli\.com\/*||gw\.fanli\.com\/*),script-path=https://raw.githubusercontent.com/ziye66666/JavaScript/main/Task/flw.js
-返利网获取body = type=http-request,pattern=https:\/\/(huodong\.fanli\.com\/*||passport\.fanli\.com\/*||gw\.fanli\.com\/*),requires-body=1,script-path=https://raw.githubusercontent.com/ziye66666/JavaScript/main/Task/flw.js
-
+返利网获取header = type=http-request,pattern=https:\/\/(huodong\.fanli\.com\/*||passport\.fanli\.com\/*||gw\.fanli\.com\/*),script-path= https://raw.githubusercontent.com/ziye11/JavaScript/main/Task/flw.js
+返利网获取body = type=http-request,pattern=https:\/\/(huodong\.fanli\.com\/*||passport\.fanli\.com\/*||gw\.fanli\.com\/*),requires-body=1,script-path= https://raw.githubusercontent.com/ziye11/JavaScript/main/Task/flw.js
 # TT语音（node.52tt.com）打卡一次获取ck成功
 TT语音 = type=http-request,pattern=https://node.52tt.com/activity-production/new-user-month-checkin/activity.Checkin/checkin,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/TT.js
 
