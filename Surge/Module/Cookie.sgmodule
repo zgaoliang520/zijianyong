@@ -132,8 +132,7 @@
 # 第一步 添加  hostname=veishop.iboxpay.com,
 # 第二步 ⚠️添加笑谱获取更新TOKEN重写  
 # 登录笑谱(在登录状态就退出，重新登录)  获取更新TOKEN
-笑谱获取header = type=http-request,pattern=https:\/\/veishop\.iboxpay\.com\/*,script-path=https://raw.githubusercontent.com/ziye11/JavaScript/main/Task/iboxpay.js
-笑谱获取更新TOKEN = type=http-request,pattern=https:\/\/veishop\.iboxpay\.com\/*,requires-body=1,script-path= https://raw.githubusercontent.com/ziye11/JavaScript/main/Task/iboxpay.js
+笑谱获取更新TOKEN = type=http-response,pattern=https:\/\/veishop\.iboxpay\.com\/nf_gateway\/nf-user-auth-web\/ignore_tk\/veishop\/v1\/*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ziye11/JavaScript/main/Task/iboxpay.js
 
 # 腾讯自选股（*.tenpay.com）
 # taskheader：打开app-立即获取
