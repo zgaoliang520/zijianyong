@@ -165,5 +165,8 @@ TT语音 = type=http-request,pattern=https://node.52tt.com/activity-production/n
 # 支付宝天天挖矿小程序（operation-api.jimistore.com）首次运行脚本，会提示获取Cookie，点击直达小程序界面
 天天挖矿小程序 = type=http-request,pattern=^https:\/\/operation-api\.jimistore\.com\/*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/DD-D1/2020scripts/master/ttwbxcxSign.js
 
+# 悬赏喵喵 微信小程序 vip.75787.com
+悬赏喵喵 = type=http-request,pattern=https://vip.75787.com/app/index.php,requires-header=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/xsmm.js
+
 [MITM]
-hostname = %APPEND% weather-data.apple.com, api.weather.com, ifac*.iqiyi.com, www.52pojie.cn, api.m.jd.com, passport.biligame.com, c.tieba.baidu.com, draw.jdfcloud.com, *.feng.com, wapside.189.cn:9001, *.video.qq.com, *.rr.tv, wq.jd.com, account.huami.com, wq.jd.com, m.jingxi.com, *.youth.cn, kd.youth.cn, ios.baertt.com, daojia.jd.com, nebula.kuaishou.com, api.didialift.com, bosp-api.xiaojukeji.com, as.xiaojukeji.com, manhattan.webapp.xiaojukeji.com, pay.diditaxi.com.cn, bububao.duoshoutuan.com, api.sxsjyzm.com, app.kxp.com, veishop.iboxpay.com, *.tenpay.com, huodong.fanli.com, passport.fanli.com, gw.fanli.com, node.52tt.com, operation-api.jimistore.com
+hostname = %APPEND% weather-data.apple.com, api.weather.com, ifac*.iqiyi.com, www.52pojie.cn, api.m.jd.com, passport.biligame.com, c.tieba.baidu.com, draw.jdfcloud.com, *.feng.com, wapside.189.cn:9001, *.video.qq.com, *.rr.tv, wq.jd.com, account.huami.com, wq.jd.com, m.jingxi.com, *.youth.cn, kd.youth.cn, ios.baertt.com, daojia.jd.com, nebula.kuaishou.com, api.didialift.com, bosp-api.xiaojukeji.com, as.xiaojukeji.com, manhattan.webapp.xiaojukeji.com, pay.diditaxi.com.cn, bububao.duoshoutuan.com, api.sxsjyzm.com, app.kxp.com, veishop.iboxpay.com, *.tenpay.com, huodong.fanli.com, passport.fanli.com, gw.fanli.com, node.52tt.com, operation-api.jimistore.com, vip.75787.com
