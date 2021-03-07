@@ -44,7 +44,7 @@
 
 
 # LXK9301
-# 获取多账号京东（wq.jd.com）在代理软件配置好下方配置后，复制 https://home.m.jd.com/myJd/newhome.action 到浏览器打开 ，在个人中心自动获取 cookie
+# 获取多账号京东（me-api.jd.com）在代理软件配置好下方配置后，复制 https://home.m.jd.com/myJd/newhome.action 到浏览器打开 ，在个人中心自动获取 cookie
 获取多账号京东Cookie = type=http-request,pattern=^https:\/\/me-api\.jd\.com\/user_new\/info\/GetJDUserInfoUnion,requires-body=1,max-size=0,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/JD_extra_cookie.js
 
 # 获取多账号京东（account.huami.com）小米运动修改微信支付宝运动步数
@@ -180,4 +180,4 @@ TT语音 = type=http-request,pattern=https://node.52tt.com/activity-production/n
 悬赏喵喵 = type=http-request,pattern=https://vip.75787.com/app/index.php,requires-header=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/xsmm.js
 
 [MITM]
-hostname = %APPEND% weather-data.apple.com, api.weather.com, ifac*.iqiyi.com, www.52pojie.cn, api.m.jd.com, passport.biligame.com, c.tieba.baidu.com, haokan.baidu.com, draw.jdfcloud.com, *.feng.com, wapside.189.cn:9001, e.189.cn, *.video.qq.com, *.rr.tv, wq.jd.com, account.huami.com, wq.jd.com, m.jingxi.com, *.youth.cn, kd.youth.cn, ios.baertt.com, daojia.jd.com, nebula.kuaishou.com, api.didialift.com, bosp-api.xiaojukeji.com, as.xiaojukeji.com, manhattan.webapp.xiaojukeji.com, pay.diditaxi.com.cn, bububao.duoshoutuan.com, api.sxsjyzm.com, app.kxp.com, veishop.iboxpay.com, *.tenpay.com, huodong.fanli.com, passport.fanli.com, gw.fanli.com, node.52tt.com, operation-api.jimistore.com, vip.75787.com
+hostname = %APPEND% weather-data.apple.com, api.weather.com, ifac*.iqiyi.com, www.52pojie.cn, api.m.jd.com, passport.biligame.com, c.tieba.baidu.com, haokan.baidu.com, draw.jdfcloud.com, *.feng.com, wapside.189.cn:9001, e.189.cn, *.video.qq.com, *.rr.tv, me-api.jd.com, account.huami.com, wq.jd.com, m.jingxi.com, *.youth.cn, kd.youth.cn, ios.baertt.com, daojia.jd.com, nebula.kuaishou.com, api.didialift.com, bosp-api.xiaojukeji.com, as.xiaojukeji.com, manhattan.webapp.xiaojukeji.com, pay.diditaxi.com.cn, bububao.duoshoutuan.com, api.sxsjyzm.com, app.kxp.com, veishop.iboxpay.com, *.tenpay.com, huodong.fanli.com, passport.fanli.com, gw.fanli.com, node.52tt.com, operation-api.jimistore.com, vip.75787.com
