@@ -46,7 +46,8 @@
 # LXK9301
 # 获取多账号京东（wq.jd.com）在代理软件配置好下方配置后，复制 https://home.m.jd.com/myJd/newhome.action 到浏览器打开 ，在个人中心自动获取 cookie
 获取多账号京东Cookie = type=http-request,pattern=^https:\/\/wq\.jd\.com\/user_new\/info\/GetJDUserInfoUnion,requires-body=1,max-size=0,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/JD_extra_cookie.js
-# 获取多账号京东（account.huami.com）小米运动修改微信支付宝运动步数
+
+# 小米运动（account.huami.com）小米运动修改微信支付宝运动步数
 # APP Store下载小米运动APP
 # 登入小米运动(登录方式必须是手机号码+密码(没有就用手机号码注册),下面的第三方账号(小米账号,Apple,微信)授权登录不行)
 # 登录成功后在 我的->第三方接入->绑定支付宝,微信
@@ -110,7 +111,7 @@
 
 # 步步宝 （bububao.duoshoutuan.com）打开App获取Cookie
 #步步宝获取TOKEN
-步步宝获取TOKEN = type=http-response,pattern=https:\/\/bububao\.duoshoutuan\.com\/user\/*,script-path= https://raw.githubusercontent.com/ziye11/JavaScript/main/Task/bububao.js
+https://raw.githubusercontent.com/adwktt/adwktt/master/BBB.js
 
 # 芝嫲视频（api.sxsjyzm.com）首次运行脚本，会提示获取body 点击夺宝获取body
 芝嫲视频 = type=http-request,pattern=^https://api.sxsjyzm.com/api2/loot/index,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/zmsp.js
