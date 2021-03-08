@@ -113,9 +113,6 @@
 #步步宝获取TOKEN
 步步宝 = type=http-request,pattern=https://bububao.duoshoutuan.com/user/profile,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/adwktt/adwktt/master/BBB.js
 
-# 芝嫲视频（api.sxsjyzm.com）首次运行脚本，会提示获取body 点击夺宝获取body
-芝嫲视频 = type=http-request,pattern=^https://api.sxsjyzm.com/api2/loot/index,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/zmsp.js
-
 # 葱花视频（app.kxp.com）
 #食用方法
 #1.到[重写]-[引用],！！！启动Getbody_CONGHUA重写引用！！！
@@ -173,11 +170,8 @@
 # TT语音（node.52tt.com）打卡一次获取ck成功
 TT语音 = type=http-request,pattern=https://node.52tt.com/activity-production/new-user-month-checkin/activity.Checkin/checkin,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/TT.js
 
-# 支付宝天天挖矿小程序（operation-api.jimistore.com）首次运行脚本，会提示获取Cookie，点击直达小程序界面
-天天挖矿小程序 = type=http-request,pattern=^https:\/\/operation-api\.jimistore\.com\/*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/DD-D1/2020scripts/master/ttwbxcxSign.js
-
 # 悬赏喵喵 微信小程序 vip.75787.com
 悬赏喵喵 = type=http-request,pattern=https://vip.75787.com/app/index.php,requires-header=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/xsmm.js
 
 [MITM]
-hostname = %APPEND% weather-data.apple.com, api.weather.com, ifac*.iqiyi.com, www.52pojie.cn, api.m.jd.com, passport.biligame.com, c.tieba.baidu.com, haokan.baidu.com, draw.jdfcloud.com, *.feng.com, wapside.189.cn:9001, e.189.cn, *.video.qq.com, *.rr.tv, wq.jd.com, account.huami.com, wq.jd.com, m.jingxi.com, *.youth.cn, kd.youth.cn, ios.baertt.com, daojia.jd.com, nebula.kuaishou.com, api.didialift.com, bosp-api.xiaojukeji.com, as.xiaojukeji.com, manhattan.webapp.xiaojukeji.com, pay.diditaxi.com.cn, bububao.duoshoutuan.com, api.sxsjyzm.com, app.kxp.com, veishop.iboxpay.com, *.tenpay.com, huodong.fanli.com, passport.fanli.com, gw.fanli.com, node.52tt.com, operation-api.jimistore.com, vip.75787.com
+hostname = %APPEND% weather-data.apple.com, api.weather.com, ifac*.iqiyi.com, www.52pojie.cn, api.m.jd.com, passport.biligame.com, c.tieba.baidu.com, haokan.baidu.com, draw.jdfcloud.com, *.feng.com, wapside.189.cn:9001, e.189.cn, *.video.qq.com, *.rr.tv, wq.jd.com, account.huami.com, wq.jd.com, m.jingxi.com, *.youth.cn, kd.youth.cn, ios.baertt.com, daojia.jd.com, nebula.kuaishou.com, api.didialift.com, bosp-api.xiaojukeji.com, as.xiaojukeji.com, manhattan.webapp.xiaojukeji.com, pay.diditaxi.com.cn, bububao.duoshoutuan.com, app.kxp.com, veishop.iboxpay.com, *.tenpay.com, huodong.fanli.com, passport.fanli.com, gw.fanli.com, node.52tt.com, vip.75787.com
