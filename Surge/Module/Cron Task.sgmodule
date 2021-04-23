@@ -93,6 +93,9 @@ CrazyJoy任务 = type=cron,cronexp="10 7 * * *",wake-system=1,timeout=20,script-
 
 东东健康社区 = type=cron,cronexp=10 0-23/4 * * *,wake-system=1,timeout=3600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_health.js
 
+东东健康社区收集能量 = type=cron,cronexp=5-45/20 * * * *,wake-system=1,timeout=3600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_health_collect.js
+
+幸运大转盘 = type=cron,cronexp="4 10 * * *",wake-system=1,timeout=3600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_market_lottery.js
 
 小鸽有礼2 = type=cron,cronexp="30 7 * * *",wake-system=1,timeout=3600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_xgyl.js
 
