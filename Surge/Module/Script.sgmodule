@@ -41,11 +41,6 @@ tbopener.js = type=http-response,pattern=^https?:\/\/weixin110\.qq\.com\/cgi-bin
 # 去微信公众号广告 (mp.weixin.qq.com)
 去微信公众号广告 = type=http-response,pattern=^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
 
-#抖音去广告&水印（*.amemv.com）
-抖音去广告&水印req = type=http-request,pattern=^https?:\/\/.+?\.amemv\.com\/aweme\/v\d\/(feed|aweme\/post|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list)\/,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Aweme.js
-
-抖音去广告&水印res = type=http-response,pattern=^https?:\/\/.+?\.amemv\.com\/aweme\/v\d\/(feed|aweme\/post|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list)\/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Aweme.js
-
 #克拉壁纸解锁（claritywallpaper.com）
 克拉壁纸解锁 = type=http-response,pattern=^https:\/\/claritywallpaper\.com\/clarity\/api\/(userInfo|special\/queryByCatalogAll),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/clarity.js
 
@@ -71,4 +66,4 @@ PicsArt美易 = type=http-response,pattern=^https:\/\/api\.(picsart|meiease)\.c(
 #辣椒解锁会员去广告（ jk.5apk.cn）
 辣椒解锁会员 = type=http-response,pattern=^http:\/\/jk\.5apk\.cn\/api\/(base|modulesData|reg|play),requires-body=1,script-path=https://raw.githubusercontent.com/zgaoliang520/zijianyong/master/MY-Script/lajiao.js
 [MITM]
-hostname = %APPEND% jk.5apk.cn, awmattack.*.com, api.bilibili.com, baimiao.uzero.cn, pan.baidu.com, api.bjxkhc.com, api.picsart.c*, api.meiease.c*,claritywallpaper.com,*.amemv.com,api.weibo.cn,mapi.weibo.com,*.uve.weibo.com,trade-acs.m.taobao.com,api.m.jd.com,ios.prod.ftl.netflix.com,m.pearkin.com,ayk.tmdidi.com,m.pearkin.com,1008610010.yohui.vip,*.xxjjappss.com,*.huaerdadi.com,*.xiaoxiaoapps.com,*.xiaoxiaoimg.com,myiconisme.com,vip07.tr102.com,weixin110.qq.com,vip1.kuwo.cn,mp.weixin.qq.com
+hostname = %APPEND% jk.5apk.cn, awmattack.*.com, api.bilibili.com, baimiao.uzero.cn, pan.baidu.com, api.bjxkhc.com, api.picsart.c*, api.meiease.c*,claritywallpaper.com,api.weibo.cn,mapi.weibo.com,*.uve.weibo.com,trade-acs.m.taobao.com,api.m.jd.com,ios.prod.ftl.netflix.com,m.pearkin.com,ayk.tmdidi.com,m.pearkin.com,1008610010.yohui.vip,*.xxjjappss.com,*.huaerdadi.com,*.xiaoxiaoapps.com,*.xiaoxiaoimg.com,myiconisme.com,vip07.tr102.com,weixin110.qq.com,vip1.kuwo.cn,mp.weixin.qq.com
