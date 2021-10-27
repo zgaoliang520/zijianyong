@@ -42,7 +42,7 @@
 # 登入小米运动(登录方式必须是手机号码+密码(没有就用手机号码注册),下面的第三方账号(小米账号,Apple,微信)授权登录不行)
 # 登录成功后在 我的->第三方接入->绑定支付宝,微信
 # 小米运动只要不退出登录，就会自动获取新的token,即永久有效
-小米运动获取Token = type=http-response,pattern=^https:\/\/account\.huami\.com\/v2\/client\/login, requires-body=1, max-size=0, script-path=backUp/xmSports.js
+小米运动获取Token = type=http-response,pattern=^https:\/\/account\.huami\.com\/v2\/client\/login, requires-body=1, max-size=0, script-path= https://raw.githubusercontent.com/Worryfrees/script/main/Surge/xiaomI/yundong.js
 
 # whyour大佬 京喜（wq.jd.com, m.jingxi.com）
 # 打开京喜农场，手动完成任意任务，必须完成任务领到水滴，提示获取cookie成功 打开京喜工厂，收取电力，提示获取cookie成功 打开京喜财富岛，手动成功提现一次，提示获取cookie成功
@@ -83,17 +83,6 @@
 # 已有阅读时长数据时，只保存大于1分钟的时长数据
 中青iOS时长数据 = type=http-request,pattern=^https?://ios\.baertt\.com/v5/user/app_stay\.json,requires-body=1,script-path=https://raw.githubusercontent.com/ztxtop/x/main/youth_banner.js
 
-# blackmatrix7（api.didialift.com,bosp-api.xiaojukeji.com,as.xiaojukeji.com,manhattan.webapp.xiaojukeji.com,pay.diditaxi.com.cn）
-# 获取Cookie 重新进入一次滴滴出行APP，即可获取Cookie。
-# 获取lid 抽奖需要获取lid，获取路径为滴滴左上角-钱包-我的钱包-福利金。
-# 获取ActivityId天天有奖，首次使用需要手动签到一次获取ActivityId和ChannelId，不获取会尝试使用内置的ActivityId和ChannelId。
-# 获取路径：滴滴出行 - 左侧菜单 - 钱包
-滴滴出行_获取Token = type=http-request,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js,pattern=^https?:\/\/api\.didialift\.com\/beatles\/userapi\/user\/user\/getuserinfo?.*city_id=(\d+).*token=([^&]*)
-滴滴出行_获取Ticket = type=http-request,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js,pattern=^https?:\/\/as\.xiaojukeji\.com\/ep\/as\/toggles\?.*location_cityid=(\d+).*&ticket=([^&]*)
-滴滴出行_获取LotteryId = type=http-request,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js,pattern=^https?:\/\/bosp-api\.xiaojukeji\.com\/bosp-api\/lottery\/info?.*lid=([^&]*)
-滴滴金融_获取ActivityId与ChannelId = type=http-response,requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js,pattern=^https?:\/\/pay\.diditaxi\.com\.cn\/web_wallet\/v2\/wallet\/home
-滴滴出行_获取GroupId = type=http-response,requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js,pattern=^https?:\/\/bosp-api\.xiaojukeji\.com\/wechat\/benefit\/public\/v2\/index
-
 # 腾讯自选股（*.tenpay.com）
 # taskheader：打开app-立即获取
 # taskkey：点击左上头像-我的福利-点击获取
@@ -111,5 +100,5 @@
 
 
 [MITM]
-hostname = %APPEND% weather-data.apple.com, api.weather.com, ifac*.iqiyi.com, www.52pojie.cn, ms.jr.jd.com, me-api.jd.com, api.m.jd.com, passport.biligame.com, c.tieba.baidu.com, *.feng.com, wapside.189.cn:9001, e.189.cn, mkt.21cn.com, *.video.qq.com, account.huami.com, m.jingxi.com, *.youth.cn, kd.youth.cn, ios.baertt.com, api.didialift.com, bosp-api.xiaojukeji.com, as.xiaojukeji.com, manhattan.webapp.xiaojukeji.com, pay.diditaxi.com.cn, *.tenpay.com
+hostname = %APPEND% weather-data.apple.com, api.weather.com, ifac*.iqiyi.com, www.52pojie.cn, ms.jr.jd.com, me-api.jd.com, api.m.jd.com, passport.biligame.com, c.tieba.baidu.com, *.feng.com, wapside.189.cn:9001, e.189.cn, mkt.21cn.com, *.video.qq.com, account.huami.com, m.jingxi.com, *.youth.cn, kd.youth.cn, ios.baertt.com, *.tenpay.com
 
