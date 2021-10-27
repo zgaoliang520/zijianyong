@@ -89,4 +89,3 @@ if ($request.url.indexOf('/user/check_sign') != -1) {
 }
 
 $done({body});
-
