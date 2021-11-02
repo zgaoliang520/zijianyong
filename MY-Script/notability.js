@@ -7,8 +7,7 @@ https://notability.com/subscriptions url script-response-body https://raw.github
 
 Surge4.0:
 
-Notability = type=http-request,pattern=https://notability.com/subscriptions,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zgaoliang520/zijianyong/master/MY-Script/notability.js
-
+Notability = type=http-response,pattern=https://notability.com/subscriptions,requires-body=true, timeout=10,script-path=https://raw.githubusercontent.com/zgaoliang520/zijianyong/master/MY-Script/notability.js
 MITM = notability.com
 
 */
