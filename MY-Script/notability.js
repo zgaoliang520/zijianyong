@@ -1,6 +1,6 @@
 /*
 
-# 驾照一点通vip
+# notability
 
 QX1.0.
 https://notability.com/subscriptions url script-response-body https://raw.githubusercontent.com/zgaoliang520/zijianyong/master/MY-Script/notability.js
