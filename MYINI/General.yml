@@ -300,7 +300,7 @@ rule-providers:
     url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.yaml"
     path: ./ruleset/TikTok.yaml
 
-  TikTok: # 海外抖音
+  PikPak: # 国外云盘
     <<: *c
     url: "https://ghproxy.com/https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/PikPak/PikPak.yaml"
     path: ./ruleset/PikPak.yaml
