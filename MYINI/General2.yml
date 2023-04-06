@@ -1,18 +1,61 @@
-port: 7890
-socks-port: 7891
-
+mixed-port: 7890
+  # 本地混合代理(http和socks5合并）端口
+allow-lan: true
+  # 允许局域网连接(false/true)
+bind-address:
+  # 监听IP白名单（当allow-lan：true），只允许列表设备
+  '*'
+  # 全部设备
+  # 192.168.122.11
+  #单个ip4地址
+  # "[aaaa::a8aa:ff:fe09:57d8]"
+  #单个ip6地址
+mode: rule
+  # clash工作模式（rule/global/direct）
+log-level: debug
+  # 日志等级（info/warning/error/debug/silent）
+external-controller: 127.0.0.1:9090
+  # 控制器监听地址
 dns:
- enable: true
- ipv6: false
- listen: 127.0.0.1:5450
- enhanced-mode: redir-host
- default-nameserver:
+  enable: true
+  # DNS开关(false/true)
+  listen: 0.0.0.0:1053
+  # DNS监听地址
+  ipv6: false
+  # IP6解析开关；如果为false，将返回ip6结果为空
+  default-nameserver:
+  # 解析非IP的dns用的dns服务器,只支持纯IP
+    - 223.5.5.5
     - 119.29.29.29
-    - 119.28.28.28
-    - 1.0.0.1
-    - 208.67.222.222
-    - 1.2.4.8
+    - 114.114.114.114
+  enhanced-mode: fake-ip
+  # DNS模式(redir-host/fake-ip)
+  fake-ip-range: 198.18.0.1/16
+  # Fake-IP解析地址池
+  fake-ip-filter:
+  # Fake-ip过滤，列表中的域名返回真实ip
+  # Local Area Network
+    - '*.lan'
+  # Stun Services
+    - '+.stun.*.*'
+    - '+.stun.*.*.*'
+    - '+.stun.*.*.*.*'
+    - '+.stun.*.*.*.*.*'
+  # Google Voices
+    - 'lens.l.google.com'
+  # Nintendo Switch
+    - '*.n.n.srv.nintendo.net'
+  # PlayStation
+    - '+.stun.playstation.net'
+  # XBox
+    - 'xbox.*.*.microsoft.com'
+    - '*.*.xboxlive.com'
+  # Microsoft
+    - '*.msftncsi.com'
+    - '*.msftconnecttest.com'
+  # Bilibili CDN
+    - '*.mcdn.bilivideo.cn'
   nameserver:
+  # 默认DNS服务器，支持udp/tcp/dot/doh/doq
     - https://dns.alidns.com/dns-query
-    - https://1.1.1.1/dns-query
-    - tls://dns.adguard.com:853
+    - https://doh.pub/dns-query
