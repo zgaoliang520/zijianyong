@@ -1,5 +1,7 @@
 # infinitesyncnext https://vod.infiniteapi.com/infinitesyncnext.yaml
 
+#小雅容器
+DOMAIN-SUFFIX,docker.xiaoya.pro
 #欧乐影院（代理）
 DOMAIN-SUFFIX,olevod.com
 #海外看（代理）
