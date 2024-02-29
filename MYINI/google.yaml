@@ -1,0 +1,11 @@
+payload:
+  - DOMAIN-SUFFIX,googleapis.cn
+  - DOMAIN-SUFFIX,googleapis.com
+  - DOMAIN-SUFFIX,google.com.tw
+  - DOMAIN-SUFFIX,google.com.hk
+  - DOMAIN-SUFFIX,gstatic.com
+  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+  - DOMAIN-SUFFIX,android.googleapis.com
+  - DOMAIN-SUFFIX,android.clients.google.com
+  - DOMAIN-SUFFIX,play.googleapis.com
+  - DOMAIN-SUFFIX,services.googleapis.com
