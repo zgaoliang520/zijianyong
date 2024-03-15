@@ -1,5 +1,5 @@
 #https://github.com/qoli/SyncnextClash/blob/45b976203b650330d7900c1d574425c885d97579/README.md#L4
-DOMAIN,xn--sss604efuw.top
+DOMAIN-KEYWORD,xn--sss604efuw
 DOMAIN-SUFFIX,movie.douban.com
 DOMAIN-SUFFIX,mddcloud.com.cn
 DOMAIN-SUFFIX,aliyundrive.asia
@@ -34,6 +34,7 @@ DOMAIN-SUFFIX,v1.ax
 IP-CIDR,216.180.0.0/16,no-resolve
 IP-CIDR,103.160.204.120/32,no-resolve
 IP-CIDR,138.199.9.104/32,no-resolve
+DOMAIN-KEYWORD,wogg
 DOMAIN-SUFFIX,wogg.link
 DOMAIN-SUFFIX,xxooo.cf
 DOMAIN-SUFFIX,wogg.xyz
