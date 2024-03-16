@@ -1,7 +1,9 @@
 payload:
 #来源https://raw.githubusercontent.com/fangkuia/XPTV/main/X/clash.yaml
 #自加
-  - DOMAIN-SUFFIX,xn--sss604efuw.top
+  - DOMAIN-KEYWORD,xn--sss604efuw
+  - DOMAIN-SUFFIX,yiso.fun
+  - DOMAIN-SUFFIX,weixine.link
 #玩偶哥哥（直连）
   - DOMAIN-SUFFIX,wogg.link
   - DOMAIN-SUFFIX,wogg.xyz
