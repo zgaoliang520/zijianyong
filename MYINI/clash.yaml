@@ -5,14 +5,24 @@ payload:
   - DOMAIN-SUFFIX,weixine.link
   - DOMAIN-SUFFIX,xn--sss604efuw.top
 #玩偶哥哥（直连）
+  - DOMAIN-KEYWORD, wogg
   - DOMAIN-SUFFIX,wogg.link
   - DOMAIN-SUFFIX,wogg.xyz
   - DOMAIN-SUFFIX, xxooo.cf
   - DOMAIN-SUFFIX,wogg.net
+#玩偶表哥（直连）
+  - DOMAIN-KEYWORD, wobge.run  
 #小纸条（直连）
-  - DOMAIN-SUFFIX,gitcafe.net
+  - DOMAIN-KEYWORD, gitcafe
+  - DOMAIN-SUFFIX, gitcafe.net
 #jojo（直连）
   - DOMAIN-SUFFIX,jiohub.top
+#阿里小站（直连）
+  - DOMAIN-KEYWORD,pan666
+  - DOMAIN-SUFFIX, pan666.net
+#云盘资源（直连）
+  - DOMAIN-KEYWORD,yunpan
+  - DOMAIN-SUFFIX, yunpan1.cc
 #厂长资源（直连）
   - DOMAIN-SUFFIX,czzy88.com
   - DOMAIN-SUFFIX,czzy22.com
