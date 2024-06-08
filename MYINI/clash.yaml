@@ -24,17 +24,28 @@ payload:
   - DOMAIN-KEYWORD,yunpan
   - DOMAIN-SUFFIX, yunpan1.cc
 #厂长资源（直连）
-  - DOMAIN-SUFFIX,czzy88.com
-  - DOMAIN-SUFFIX,czzy22.com
-  - DOMAIN-SUFFIX,czzy66.com
-  - DOMAIN-SUFFIX,cz233.com
+  - DOMAIN-KEYWORD, czzy
+  - DOMAIN-KEYWORD, czys
+  - DOMAIN-SUFFIX, czzy88.com
+  - DOMAIN-SUFFIX, czzy22.com
+  - DOMAIN-SUFFIX, czzy66.com
+  - DOMAIN-SUFFIX, cz233.com
+  - DOMAIN-SUFFIX, czys.top
+  - DOMAIN-SUFFIX, czzy77.com
 #在线之家（直连）
+  - DOMAIN-KEYWORD, zxzj
   - DOMAIN-SUFFIX,zxzja.com  
   - DOMAIN-SUFFIX,zxzjhd.com  
   - DOMAIN-SUFFIX,zxzj.pro  
 #低端影视（直连）
+  - DOMAIN-KEYWORD, ddys
   - DOMAIN-SUFFIX,ddys.pro  
   - DOMAIN-SUFFIX,ddys.mov  
+#AGE动漫（直连）
+  - DOMAIN-SUFFIX, agedm.org
+#哔嘀影视（直连）
+  - DOMAIN-KEYWORD, bdys
+  - DOMAIN-SUFFIX, bdys10.com
 #索尼资源（直连）
   - DOMAIN-SUFFIX,suoniapi.com  
   - DOMAIN,v3.sxzyhuij.com  
@@ -107,6 +118,8 @@ payload:
   - DOMAIN-SUFFIX,toutiao50.com  
   - DOMAIN-SUFFIX,ibyteimg.com  
 #阿里播放
+  - DOMAIN, drive-pc.quark.cn
+  - DOMAIN-KEYWORD, quark
   - DOMAIN-SUFFIX,aliyundrive.asia  
   - DOMAIN-SUFFIX,alicloudccp.com  
   - DOMAIN,openapi.aliyundrive.com  
