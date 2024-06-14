@@ -1,7 +1,7 @@
 payload:
 #自加
   - DOMAIN-SUFFIX,docker.xiaoya.pro
-  - DOMAIN-SUFFIX,docker.com
+  #- DOMAIN-SUFFIX,docker.com
 #https://raw.githubusercontent.com/qoli/SyncnextClash/main/proxy-classical.yaml  
   - DOMAIN-SUFFIX,v1.mk
   - DOMAIN-SUFFIX,notion-api.splitbee.io
