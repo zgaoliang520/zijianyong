@@ -3,7 +3,7 @@ payload:
 #自加
   - DOMAIN-SUFFIX,yiso.fun
   - DOMAIN-SUFFIX,weixine.link
-#  - DOMAIN-SUFFIX,xn--sss604efuw.top
+  - DOMAIN-KEYWORD,www.xn--sss604efuw.com
 #玩偶哥哥（直连）
   - DOMAIN-KEYWORD, wogg
   - DOMAIN-SUFFIX,wogg.link
