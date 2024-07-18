@@ -1,6 +1,5 @@
 payload:
 #自加
-  - DOMAIN-SUFFIX,fs-im-kefu.7moor-fs1.com
   - DOMAIN-SUFFIX,docker.xiaoya.pro
   #- DOMAIN-SUFFIX,docker.com
 #https://raw.githubusercontent.com/qoli/SyncnextClash/main/proxy-classical.yaml  
