@@ -8,7 +8,9 @@ payload:
   - DOMAIN-KEYWORD, wogg
   - DOMAIN-SUFFIX,wogg.link
   - DOMAIN-SUFFIX,wogg.xyz
-  - DOMAIN-SUFFIX, xxooo.cf
+  - DOMAIN-SUFFIX,xxooo.cf
+  - DOMAIN-SUFFIX,www.wogg.net
+  - DOMAIN-SUFFIX,wogg.888484.xyz
 #玩偶表哥（直连）
   - DOMAIN-KEYWORD, wobge.run
 #小纸条（直连）
