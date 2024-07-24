@@ -34,13 +34,14 @@ DOMAIN-SUFFIX,v1.ax
 IP-CIDR,216.180.0.0/16,no-resolve
 IP-CIDR,103.160.204.120/32,no-resolve
 IP-CIDR,138.199.9.104/32,no-resolve
+DOMAIN-KEYWORD,wogg
+DOMAIN-SUFFIX,www.wogg.link
 DOMAIN-SUFFIX,wogg.888484.xyz
 DOMAIN-SUFFIX,www.wogg.net
 DOMAIN-SUFFIX,wogg.link
 DOMAIN-SUFFIX,xxooo.cf
 DOMAIN-SUFFIX,wogg.xyz
 DOMAIN-SUFFIX,wogg.net
-DOMAIN-KEYWORD,wogg
 DOMAIN-SUFFIX,yiso.fun
 DOMAIN-SUFFIX,pstatp.com
 DOMAIN-KEYWORD,tt.cuc.myqcloud.com.cn
