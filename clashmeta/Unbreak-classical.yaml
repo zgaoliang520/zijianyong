@@ -1,186 +1,186 @@
 payload:
 #来源https://raw.githubusercontent.com/fangkuia/XPTV/main/X/clash.yaml
 #自加
-  - +yiso.fun
-  - +weixine.link
-  - +.www.xn--sss604efuw.com
+    - +yiso.fun
+    - +weixine.link
+    - +.www.xn--sss604efuw.com
 #玩偶哥哥（直连）
-  - +.wogg
-  - +www.wogg.net
-  - +wogg.xxooo.cf
-  - +wogg.888484.xyz
+    - +.wogg
+    - +www.wogg.net
+    - +wogg.xxooo.cf
+    - +wogg.888484.xyz
 #玩偶表哥（直连）
-  - +.wobge.run
+    - +.wobge.run
 #小纸条（直连）
-  - +gitcafe.net
+    - +gitcafe.net
 #jojo（直连）
-  - +jiohub.top
+    - +jiohub.top
 #阿里小站（直连）
-  - +.pan666
-  - +pan666.net
+    - +.pan666
+    - +pan666.net
 #云盘资源（直连）
-  - +.yunpan
-  - +yunpan1.cc
+    - +.yunpan
+    - +yunpan1.cc
 #厂长资源（直连）
-  - +.czzy
-  - +.czys
-  - +czzy88.com
-  - +czzy22.com
-  - +czzy66.com
-  - +cz233.com
-  - +czys.top
-  - +czzy77.com
+    - +.czzy
+    - +.czys
+    - +czzy88.com
+    - +czzy22.com
+    - +czzy66.com
+    - +cz233.com
+    - +czys.top
+    - +czzy77.com
 #在线之家（直连）
-  - +.zxzj
-  - +zxzja.com  
-  - +zxzjhd.com  
-  - +zxzj.pro  
+    - +.zxzj
+    - +zxzja.com  
+    - +zxzjhd.com  
+    - +zxzj.pro  
 #低端影视（直连）
-  - +.ddys
-  - +ddys.pro  
-  - +ddys.mov 
+    - +.ddys
+    - +ddys.pro  
+    - +ddys.mov 
 #AGE动漫（直连）
-  - +agedm.org
+    - +agedm.org
 #哔嘀影视（直连）
-  - +.bdys
-  - +bdys10.com
+    - +.bdys
+    - +bdys10.com
 #索尼资源（直连）
-  - +suoniapi.com  
-  - +v3.sxzyhuij.com  
-  - +v3.suonizy-youku.com  
-  - +v8.sxzyhuij.com  
-  - +snzypic.com  
-  - +v8.suonizy-youku.com  
+    - +suoniapi.com  
+    - +v3.sxzyhuij.com  
+    - +v3.suonizy-youku.com  
+    - +v8.sxzyhuij.com  
+    - +snzypic.com  
+    - +v8.suonizy-youku.com  
 #非凡资源（直连）
-  - +ffzyapi.com  
+    - +ffzyapi.com  
 #红牛资源（直连）
-  - +hongniuzy2.com  
+    - +hongniuzy2.com  
 #量子资源（直连）
-  - +lziapi.com  
+    - +lziapi.com  
 #快车资源（直连）
-  - +kczyapi.com  
+    - +kczyapi.com  
 #三九影視（直连）
-  - +39kan.com  
+    - +39kan.com  
 #闪电资源（直连）
-  - +sdzyapi.com  
+    - +sdzyapi.com  
 #樱花资源（直连）
-  - +apiyhzy.com  
+    - +apiyhzy.com  
 #卧龙资源（直连）
-  - +wolongzyw.com  
+    - +wolongzyw.com  
 #飘花影院（直连）
-  - +ahjiuman.com  
+    - +ahjiuman.com  
 #虎牙资源（直连）
-  - +huyaapi.com  
+    - +huyaapi.com  
 #百度资源（直连）
-  - +apibdzy.com  
+    - +apibdzy.com  
 #飘零影院（直连）
-  - +p2100.net  
+    - +p2100.net  
 #无尽资源（直连）
-  - +wujinapi.com  
+    - +wujinapi.com  
 #速博资源（直连）
-  - +subocaiji.com  
+    - +subocaiji.com  
 #乐视资源（直连）
-  - +leshizyapi.com  
+    - +leshizyapi.com  
 #探索页（直连）
-  - +infuseku.xyz  
+    - +infuseku.xyz  
 #魔都动漫（直连）
-  - +moduapi.cc  
+    - +moduapi.cc  
 #最大资源（直连）
-  - +zuidazy.me  
+    - +zuidazy.me  
 #奇虎资源（直连）
-  - +qhzyapi.com  
+    - +qhzyapi.com  
 #火狐资源（直连）
-  - +hhzyapi.com  
+    - +hhzyapi.com  
 #享看资源（直连）
-  - +xkanzy10.com  
+    - +xkanzy10.com  
 #新浪资源（直连）
-  - +xinlangapi.com  
+    - +xinlangapi.com  
 #快云资源（直连）
-  - +kuaiyunzy.com  
+    - +kuaiyunzy.com  
 #四圈资源（直连）
-  - +fenwe078.cf   
+    - +fenwe078.cf   
 #快看资源（直连）
-  - +kuaikanzy.net  
+    - +kuaikanzy.net  
 #厂长&低端播放
-  - +cz01.site  
-  - +larksuitecdn.com  
-  - +fotile.com  
-  - +pstatp.com  
-  - +ugdtimg.com  
-  - +ctyunxs.cn  
-  - +wxsnsencsvp.wxs.qq.com  
+    - +cz01.site  
+    - +larksuitecdn.com  
+    - +fotile.com  
+    - +pstatp.com  
+    - +ugdtimg.com  
+    - +ctyunxs.cn  
+    - +wxsnsencsvp.wxs.qq.com  
 #哔嘀播放
-  - +ibytedtos.com  
-  - +toutiao50.com  
-  - +ibyteimg.com  
+    - +ibytedtos.com  
+    - +toutiao50.com  
+    - +ibyteimg.com  
 #网盘播放
-  - +.quark
-  - +drive-pc.quark.cn
-  - +.aliyun
-  - +aliyundrive.asia  
-  - +alicloudccp.com  
-  - +openapi.aliyundrive.com  
-  - +auth.aliyundrive.com  
-  - +api.aliyundrive.com  
+    - +.quark
+    - +drive-pc.quark.cn
+    - +.aliyun
+    - +aliyundrive.asia  
+    - +alicloudccp.com  
+    - +openapi.aliyundrive.com  
+    - +auth.aliyundrive.com  
+    - +api.aliyundrive.com  
 #豆瓣封面
-  - +doubanio.com  
+    - +doubanio.com  
 #同步数据
-  - +gateway.icloud.com  
+    - +gateway.icloud.com  
 #杂七杂八的播放
-  - +bfengbf.com
-  - +bfikuncdn.com
-  - +tencent-1257389134.cos.ap-nanjing.myqcloud.com.qqhd.net
-  - +gvideo.qpic.cn
-  - +media-hncs-fy-person.hn12oss.ctyunxs.cn
-  - +qchannelvideo.photo.qq.com
-  - +sf16-sg.larksuitecdn.com
-  - +op.xn--it-if7c19g5s4bps5c.com
-  - +tjdownload.pan.wo.cn
-  - +nkvod.com
-  - +13to.com
-  - +.thehanju
-  - +.hanjukankan
-  - +.subaibaiys
-  - +xhscdn.com
-  - +.wangchuanxin
-  - +vod-qcloud.com
-  - +.hhplayer
-  - +.saohuo
-  - +.bttwo
-  - +dandanplay.net
-  - +mcloud.139.com
-  - +jiasu.buzz
-  - +.feidaozy
-  - +.modujx
-  - +.simanuo
-  - +huawei8.live
-  - +hw8.live
-  - +.heimuer
-  - +.hhuus
-  - +.hhwenjian
-  - +hhmage.com
-  - +xinlangtupian.com
-  - +.xlzyd
-  - +ikunzyapi.com
-  - +.ikzybf
-  - +.49zyvideoplayurl
-  - +.v.cdnlz  
-  - +.vip.kuaikan  
-  - +.vip.ffzy  
-  - +vod2.kczybf.com  
-  - +top.1080pzy.co  
-  - +c3.monidai.com  
-  - +pan.dy066.com  
-  - +hey11.cjkypo.com  
-  - +hnts.ymuuy.com  
-  - +hnzy.bfvvs.com  
-  - +maimn.com  
-  - +img.lzzyimg.com  
-  - +vip.ffzy-play5.com  
-  - +vip.ffzy-online6.com  
-  - +sss.image8899.net  
-  - +ikcdn01.ikzybf.com  
-  - +vip.ffzy-play9.com  
-  - +svip.picffzy.com  
-  - +vip.imgffzy.com  
-  - +vip.ffzyread1.com
+    - +bfengbf.com
+    - +bfikuncdn.com
+    - +tencent-1257389134.cos.ap-nanjing.myqcloud.com.qqhd.net
+    - +gvideo.qpic.cn
+    - +media-hncs-fy-person.hn12oss.ctyunxs.cn
+    - +qchannelvideo.photo.qq.com
+    - +sf16-sg.larksuitecdn.com
+    - +op.xn--it-if7c19g5s4bps5c.com
+    - +tjdownload.pan.wo.cn
+    - +nkvod.com
+    - +13to.com
+    - +.thehanju
+    - +.hanjukankan
+    - +.subaibaiys
+    - +xhscdn.com
+    - +.wangchuanxin
+    - +vod-qcloud.com
+    - +.hhplayer
+    - +.saohuo
+    - +.bttwo
+    - +dandanplay.net
+    - +mcloud.139.com
+    - +jiasu.buzz
+    - +.feidaozy
+    - +.modujx
+    - +.simanuo
+    - +huawei8.live
+    - +hw8.live
+    - +.heimuer
+    - +.hhuus
+    - +.hhwenjian
+    - +hhmage.com
+    - +xinlangtupian.com
+    - +.xlzyd
+    - +ikunzyapi.com
+    - +.ikzybf
+    - +.49zyvideoplayurl
+    - +.v.cdnlz  
+    - +.vip.kuaikan  
+    - +.vip.ffzy  
+    - +vod2.kczybf.com  
+    - +top.1080pzy.co  
+    - +c3.monidai.com  
+    - +pan.dy066.com  
+    - +hey11.cjkypo.com  
+    - +hnts.ymuuy.com  
+    - +hnzy.bfvvs.com  
+    - +maimn.com  
+    - +img.lzzyimg.com  
+    - +vip.ffzy-play5.com  
+    - +vip.ffzy-online6.com  
+    - +sss.image8899.net  
+    - +ikcdn01.ikzybf.com  
+    - +vip.ffzy-play9.com  
+    - +svip.picffzy.com  
+    - +vip.imgffzy.com  
+    - +vip.ffzyread1.com
