@@ -369,6 +369,20 @@
             ]
         },
         {
+            "tag": "Final",
+            "type": "selector",
+            "outbounds": [
+                "Proxy",
+                "HongKong",
+                "TaiWan",
+                "Singapore",
+                "Japan",
+                "America",
+                "Others",
+                "direct"
+            ]
+        },
+        {
             "tag": "HongKong",
             "type": "selector",
             "outbounds": [
@@ -491,7 +505,7 @@
     ],
     "route": {
         "auto_detect_interface": true,
-        "final": "Proxy",
+        "final": "Final",
         "rules": [
             {
                 "type": "logical",
