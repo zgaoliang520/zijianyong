@@ -5,7 +5,7 @@ payload:
   - DOMAIN-SUFFIX,weixine.link
   - DOMAIN-KEYWORD,www.xn--sss604efuw.com
 #玩偶哥哥（直连）
-#  - DOMAIN-KEYWORD, wogg
+  - DOMAIN-KEYWORD, wogg
   - DOMAIN-SUFFIX,wogg.xxooo.cf
   - DOMAIN-SUFFIX,wogg.xyz
   - DOMAIN-SUFFIX,www.wogg.bf
