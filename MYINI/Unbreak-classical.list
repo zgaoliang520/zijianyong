@@ -6,6 +6,11 @@ DOMAIN-SUFFIX,www.wogg.net
 DOMAIN-SUFFIX,wogg.link
 DOMAIN-SUFFIX,wogg.xxooo.cf
 DOMAIN-SUFFIX,wogg.888484.xyz
+#木偶哥哥（直连）
+DOMAIN-KEYWORD, mogg
+DOMAIN-SUFFIX,mogg.top
+DOMAIN-SUFFIX,www.mogg.top
+DOMAIN-SUFFIX,mogg.小胡.top
 #玩偶表哥（直连）
 DOMAIN-KEYWORD,wobge.run
 #小纸条（直连）
