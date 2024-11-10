@@ -12,6 +12,12 @@ payload:
   - DOMAIN-SUFFIX,www.wogg.bf
   - DOMAIN-SUFFIX,www.wogg.net
   - DOMAIN-SUFFIX,wogg.888484.xyz
+#蜡笔网盘（直连）
+  - DOMAIN-KEYWORD, duopan 
+  - DOMAIN-SUFFIX,duopan.fun
+#至臻网盘（直连）
+  - DOMAIN-KEYWORD, mihdr
+  - DOMAIN-SUFFIX,mihdr.top
 #木偶哥哥（直连）
   - DOMAIN-KEYWORD, mogg
   - DOMAIN-SUFFIX,mogg.top
