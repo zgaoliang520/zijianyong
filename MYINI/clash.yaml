@@ -34,6 +34,7 @@ payload:
 #木偶
 - DOMAIN-SUFFIX,mogg.top
 #玩偶
+- DOMAIN,wogg
 - DOMAIN-SUFFIX,wogg.net
 - DOMAIN-SUFFIX,wogg.one
 - DOMAIN-SUFFIX,wogg.xxooo.cf
