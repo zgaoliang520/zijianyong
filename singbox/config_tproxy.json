@@ -438,8 +438,7 @@
             },
             {
                 "rule_set": [
-                    "geosite-pikpak",
-                    "geoip-netflix"
+                    "geosite-pikpak"
                 ],
                 "outbound": "☠️ PikPak"
             },
