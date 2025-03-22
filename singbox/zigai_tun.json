@@ -101,13 +101,12 @@
     "experimental": {
         "cache_file": {
             "enabled": true,
-            "path": "/etc/sing-box/cache.db",
             "store_fakeip": true
         },
         "clash_api": {
             "default_mode": "规则模式",
             "external_controller": "0.0.0.0:9095",
-            "external_ui": "/etc/sing-box/ui",
+            "external_ui": "ui",
             "external_ui_download_url": "https://ghfast.top/https://git.repcz.link/github.com/Zephyruso/zashboard/releases/latest/download/dist.zip",
             "external_ui_download_detour": "direct"
         }
