@@ -1,0 +1,64 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "supjav.com"
+            ],
+            "domain_suffix": [
+                "hub.docker.com",
+                "imdb.com",
+                "themoviedb.org",
+                "thetvdb.com",
+                "v1.mk",
+                "notion-api.splitbee.io",
+                "discord.com",
+                "olevod.com",
+                "olevod.tv",
+                "olemovienews.com",
+                "haiwaikan.com",
+                "bfvvs.com",
+                "10musume.com",
+                "1pondo.tv",
+                "airav.wiki",
+                "arzon.jp",
+                "avbase.net",
+                "aventertainments.com",
+                "c0930.com",
+                "caribbeancom.com",
+                "caribbeancompr.com",
+                "dahlia-av.jp",
+                "duga.jp",
+                "faleno.jp",
+                "faleno.top",
+                "dmm.co.jp",
+                "adult.contents.fc2.com",
+                "fc2hub.com",
+                "gcolle.net",
+                "dl.getchu.com",
+                "h0930.com",
+                "h4610.com",
+                "heydouga.com",
+                "heyzo.com",
+                "jav321.com",
+                "javbus.com",
+                "kin8tengoku.com",
+                "madouqu.com",
+                "mgstage.com",
+                "muramura.tv",
+                "mywife.cc",
+                "pacopacomama.com",
+                "pcolle.com",
+                "prestige-av.com",
+                "ec.sod.co.jp",
+                "ec.sod.co.prime",
+                "my.tokyo-hot.com",
+                "xslist.org",
+                "xxx-av.com"
+            ],
+            "domain_keyword": [
+                "missav"
+            ]
+        }
+    ]
+}
