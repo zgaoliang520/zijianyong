@@ -15,6 +15,9 @@ payload:
  - DOMAIN-SUFFIX, olehdtv.com
  - DOMAIN-SUFFIX, olemovienews.com
  - DOMAIN-KEYWORD, olevod
+ # 独播库
+ - DOMAIN-SUFFIX, duboku.tv
+ - DOMAIN-SUFFIX, tv.gboku.com
 # TMDB
  - DOMAIN-SUFFIX, tmdb.org
  - DOMAIN-SUFFIX, themoviedb.org
