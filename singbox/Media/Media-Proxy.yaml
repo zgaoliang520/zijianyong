@@ -49,6 +49,8 @@ payload:
  - DOMAIN-SUFFIX, bttwo.net
 # 追光影视
  - DOMAIN-SUFFIX, sgsd.xyz
+  # 影巢
+ - DOMAIN-SUFFIX, hdhive.online
 
 # VOD AV源
 # 91Jav
