@@ -4,35 +4,35 @@ payload:
  - DOMAIN-SUFFIX,notion-api.splitbee.io
   # CMSPlayer
 # 海外看
- - DOMAIN-SUFFIX, haiwaikan.com
- - DOMAIN, cdnb.kin6c1.com
- - DOMAIN, cdnb.iz8qkg.com
- - DOMAIN, cdnb.v82u1l.com
+ - DOMAIN-SUFFIX,haiwaikan.com
+ - DOMAIN,cdnb.kin6c1.com
+ - DOMAIN,cdnb.iz8qkg.com
+ - DOMAIN,cdnb.v82u1l.com
 # 欧乐影视
- - DOMAIN-SUFFIX, olelive.com
- - DOMAIN-SUFFIX, olevod.com
- - DOMAIN-SUFFIX, olevod.tv
- - DOMAIN-SUFFIX, olehdtv.com
- - DOMAIN-SUFFIX, olemovienews.com
- - DOMAIN-KEYWORD, olevod
+ - DOMAIN-SUFFIX,olelive.com
+ - DOMAIN-SUFFIX,olevod.com
+ - DOMAIN-SUFFIX,olevod.tv
+ - DOMAIN-SUFFIX,olehdtv.com
+ - DOMAIN-SUFFIX,olemovienews.com
+ - DOMAIN-KEYWORD,olevod
  # 独播库
- - DOMAIN-SUFFIX, duboku.tv
- - DOMAIN-SUFFIX, pub.duboku.net
- - DOMAIN-SUFFIX, tv.gboku.com
+ - DOMAIN-SUFFIX,duboku.tv
+ - DOMAIN-SUFFIX,pub.duboku.net
+ - DOMAIN-SUFFIX,tv.gboku.com
 # TMDB
- - DOMAIN-SUFFIX, tmdb.org
- - DOMAIN-SUFFIX, themoviedb.org
+ - DOMAIN-SUFFIX,tmdb.org
+ - DOMAIN-SUFFIX,themoviedb.org
 # TVDB
- - DOMAIN-SUFFIX, thetvdb.com
+ - DOMAIN-SUFFIX,thetvdb.com
 # 其他
- - DOMAIN-SUFFIX, v1.mk
- - DOMAIN-SUFFIX, notion-api.splitbee.io
- - DOMAIN-SUFFIX, bfvvs.com
- - DOMAIN-SUFFIX, cdn.venus7202.com
- - DOMAIN-SUFFIX, cdn.ceres9350.com
- - DOMAIN-SUFFIX, cdn.efhie.com
- - DOMAIN-SUFFIX, picsum.photos
- - DOMAIN-SUFFIX, ibb.co
+ - DOMAIN-SUFFIX,v1.mk
+ - DOMAIN-SUFFIX,notion-api.splitbee.io
+ - DOMAIN-SUFFIX,bfvvs.com
+ - DOMAIN-SUFFIX,cdn.venus7202.com
+ - DOMAIN-SUFFIX,cdn.ceres9350.com
+ - DOMAIN-SUFFIX,cdn.efhie.com
+ - DOMAIN-SUFFIX,picsum.photos
+ - DOMAIN-SUFFIX,ibb.co
 
  - DOMAIN-SUFFIX,scrapingbee.com
  - DOMAIN-SUFFIX,nivod.tv
@@ -44,69 +44,69 @@ payload:
 # XPTV
 # VOD TV源
 # AnFuns动漫
- - DOMAIN-SUFFIX, anfuns.cc
+ - DOMAIN-SUFFIX,anfuns.cc
 # 两个BT
- - DOMAIN-SUFFIX, bttwo.net
+ - DOMAIN-SUFFIX,bttwo.net
 # 追光影视
- - DOMAIN-SUFFIX, sgsd.xyz
+ - DOMAIN-SUFFIX,sgsd.xyz
   # 影巢
- - DOMAIN-SUFFIX, hdhive.online
+ - DOMAIN-SUFFIX,hdhive.online
 
 # VOD AV源
 # 91Jav
- - DOMAIN-SUFFIX, 91jav.fun
- - DOMAIN, 041.bndmpsjx.com
+ - DOMAIN-SUFFIX,91jav.fun
+ - DOMAIN,041.bndmpsjx.com
 # AVDB
- - DOMAIN-SUFFIX, avdbapi.com
+ - DOMAIN-SUFFIX,avdbapi.com
 # AV Today
- - DOMAIN-SUFFIX, avtoday.io
+ - DOMAIN-SUFFIX,avtoday.io
 # Hanime1.me
- - DOMAIN-SUFFIX, hanime1.me
+ - DOMAIN-SUFFIX,hanime1.me
 # HoHoJ
- - DOMAIN-SUFFIX, hohoj.tv
+ - DOMAIN-SUFFIX,hohoj.tv
 # Jable
- - DOMAIN-SUFFIX, jable.tv
+ - DOMAIN-SUFFIX,jable.tv
 # KanAV
- - DOMAIN-SUFFIX, kanav.info
+ - DOMAIN-SUFFIX,kanav.info
 # KoreaPornMovie
- - DOMAIN-SUFFIX, koreanpornmovie.com
+ - DOMAIN-SUFFIX,koreanpornmovie.com
 # MissAV
- - DOMAIN-SUFFIX, missav.com
- - DOMAIN-SUFFIX, missav.ws
+ - DOMAIN-SUFFIX,missav.com
+ - DOMAIN-SUFFIX,missav.ws
 # Pornhub
- - DOMAIN-SUFFIX, pornhub.com
+ - DOMAIN-SUFFIX,pornhub.com
 # PPP Porn
- - DOMAIN-SUFFIX, ppp.porn
+ - DOMAIN-SUFFIX,ppp.porn
 # SubJav
- - DOMAIN-SUFFIX, supjav.com
- - DOMAIN-SUFFIX, supremejav.com
+ - DOMAIN-SUFFIX,supjav.com
+ - DOMAIN-SUFFIX,supremejav.com
 # JavLibrary
- - DOMAIN-SUFFIX, pics.dmm.co.jp
- - DOMAIN-SUFFIX, javlibrary.com
- - DOMAIN-SUFFIX, javlibrary.cc
+ - DOMAIN-SUFFIX,pics.dmm.co.jp
+ - DOMAIN-SUFFIX,javlibrary.com
+ - DOMAIN-SUFFIX,javlibrary.cc
 # xHamster
- - DOMAIN-SUFFIX, xhamster.com
+ - DOMAIN-SUFFIX,xhamster.com
 # 花都影视
- - DOMAIN-SUFFIX, huaduys.org
+ - DOMAIN-SUFFIX,huaduys.org
 # 麻豆社
- - DOMAIN-SUFFIX, madou.club
+ - DOMAIN-SUFFIX,madou.club
 # 肉视频
- - DOMAIN-SUFFIX, rou.video
+ - DOMAIN-SUFFIX,rou.video
 # 桃花族
- - DOMAIN-SUFFIX, 822thz.com
+ - DOMAIN-SUFFIX,822thz.com
 # 玩偶姐姐
- - DOMAIN-SUFFIX, hongkongdollvideo.com
+ - DOMAIN-SUFFIX,hongkongdollvideo.com
 # 有爱爱
- - DOMAIN-SUFFIX, uaa.com
+ - DOMAIN-SUFFIX,uaa.com
 # Taiav
- - DOMAIN-SUFFIX, taiav.com
+ - DOMAIN-SUFFIX,taiav.com
 # TwiVideo
- - DOMAIN-SUFFIX, twivideo.net
+ - DOMAIN-SUFFIX,twivideo.net
 # JAVMove
- - DOMAIN-SUFFIX, javmove.com
+ - DOMAIN-SUFFIX,javmove.com
 # PandaTV
- - DOMAIN-SUFFIX, pandalive.co.kr
+ - DOMAIN-SUFFIX,pandalive.co.kr
 
 # 网盘源
 # 小盘盘
- - DOMAIN-SUFFIX, xpanpan.site
+ - DOMAIN-SUFFIX,xpanpan.site
