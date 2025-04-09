@@ -1,24 +1,24 @@
 # 已标注了大部分可直连的地址,遇到无法直连的情况自行调整
 # https://raw.githubusercontent.com/sooyaaabo/Loon/refs/heads/main/Rule/Media-Direct.list
 # Syncnext
-DOMAIN-SUFFIX,aliyundrive.asia
-DOMAIN-SUFFIX,zh188.net
-DOMAIN-SUFFIX,kczybf.com
-DOMAIN-SUFFIX,mixpanel.com
-DOMAIN-SUFFIX,appsflyer.com
-DOMAIN-SUFFIX,tv.apple.com
-DOMAIN-SUFFIX,hls.aoxtv.com
-DOMAIN-KEYWORD,ffzy-play
-DOMAIN-KEYWORD,bfzycdn.com
-DOMAIN-KEYWORD,lzcdn
-DOMAIN-KEYWORD,lz-cdn
-DOMAIN-KEYWORD,default.akamaized.net
-DOMAIN-KEYWORD,vip.ffzy-online
-DOMAIN-KEYWORD,vip.ffzy-play
-DOMAIN-KEYWORD,ffzyread
-IP-CIDR,216.180.0.0/16
-IP-CIDR,103.160.204.120/32
-IP-CIDR,138.199.9.104/32
+DOMAIN-SUFFIX, aliyundrive.asia
+DOMAIN-SUFFIX, zh188.net
+DOMAIN-SUFFIX, kczybf.com
+DOMAIN-SUFFIX, mixpanel.com
+DOMAIN-SUFFIX, appsflyer.com
+DOMAIN-SUFFIX, tv.apple.com
+DOMAIN-SUFFIX, hls.aoxtv.com
+DOMAIN-KEYWORD, ffzy-play
+DOMAIN-KEYWORD, bfzycdn.com
+DOMAIN-KEYWORD, lzcdn
+DOMAIN-KEYWORD, lz-cdn
+DOMAIN-KEYWORD, default.akamaized.net
+DOMAIN-KEYWORD, vip.ffzy-online
+DOMAIN-KEYWORD, vip.ffzy-play
+DOMAIN-KEYWORD, ffzyread
+IP-CIDR, 216.180.0.0/16
+IP-CIDR, 103.160.204.120/32
+IP-CIDR, 138.199.9.104/32
 # 厂长资源
 DOMAIN-SUFFIX, czzy.site
 DOMAIN-SUFFIX, czys.top
@@ -32,7 +32,7 @@ DOMAIN-SUFFIX, czzy77.com
 DOMAIN-SUFFIX, czzy88.com
 DOMAIN-SUFFIX, cz233.com
 # JavLibrary图书馆
-DOMAIN,r86m.com
+DOMAIN, r86m.com
 # 放美剧
 DOMAIN-SUFFIX, fmeiju.com
 # 私密影院
@@ -95,32 +95,32 @@ DOMAIN-SUFFIX, 4kdyg.top
 DOMAIN-SUFFIX, wangyoung.com
 DOMAIN-SUFFIX,xptvhelper.link
 #XPTV主站-部分地区可以直连自行尝试
-# DOMAIN,infuseku.xyz
+# DOMAIN, infuseku.xyz
 #iCloud同步
-DOMAIN,gateway.icloud.com
-DOMAIN,metrics.icloud.com
+DOMAIN, gateway.icloud.com
+DOMAIN, metrics.icloud.com
 #XPTV封面来源
 #小海报
-DOMAIN-SUFFIX,doubanio.com
+DOMAIN-SUFFIX, doubanio.com
 #大封面
-DOMAIN,image.tmdb.org
+DOMAIN, image.tmdb.org
 #弹幕
-DOMAIN,dandanplay.net
+DOMAIN, dandanplay.net
 #网盘规则
 #阿里
-DOMAIN-SUFFIX,aliyundrive.com
-DOMAIN-SUFFIX,voicehub.top
+DOMAIN-SUFFIX, aliyundrive.com
+DOMAIN-SUFFIX, voicehub.top
 #夸克
-DOMAIN-SUFFIX,quark.cn
+DOMAIN-SUFFIX, quark.cn
 #天翼
-DOMAIN-SUFFIX,189.cn
-DOMAIN-SUFFIX,ctyunxs.cn
+DOMAIN-SUFFIX, 189.cn
+DOMAIN-SUFFIX, ctyunxs.cn
 #115
-DOMAIN-SUFFIX,115.com
+DOMAIN-SUFFIX, 115.com
 #uc
-DOMAIN-SUFFIX,uc.cn
+DOMAIN-SUFFIX, uc.cn
 #小雅
-DOMAIN-SUFFIX,xiaoya.pro
+DOMAIN-SUFFIX, xiaoya.pro
 # 网盘源
 # 双子星Star2
 DOMAIN-SUFFIX, star2.cn
@@ -131,29 +131,29 @@ DOMAIN, vip.omii.top
 # 白嫖分享
 DOMAIN-SUFFIX, smdyo.top
 # 多多影音
-DOMAIN-KEYWORD,yydsys
-DOMAIN-SUFFIX,yydsys.top
-DOMAIN-SUFFIX,yydsys.cc
-DOMAIN-SUFFIX,214521.xyz
+DOMAIN-KEYWORD, yydsys
+DOMAIN-SUFFIX, yydsys.top
+DOMAIN-SUFFIX, yydsys.cc
+DOMAIN-SUFFIX, 214521.xyz
 # 观影 GYING
-DOMAIN-KEYWORD,gying
+DOMAIN-KEYWORD, gying
 DOMAIN-SUFFIX, gyg.la
 # 蜡笔盘
-DOMAIN-SUFFIX,feimaoai.site
-DOMAIN-SUFFIX,labi88.sbs
-DOMAIN-SUFFIX,feimao666.fun
-DOMAIN-SUFFIX,feimao888.fun
+DOMAIN-SUFFIX, feimaoai.site
+DOMAIN-SUFFIX, labi88.sbs
+DOMAIN-SUFFIX, feimao666.fun
+DOMAIN-SUFFIX, feimao888.fun
 # 雷鲸小站
 DOMAIN, www.leijing.xyz
 # 星剧社
-DOMAIN,mlink.cc/520TV
+DOMAIN, mlink.cc/520TV
 # 六趣网盘
 DOMAIN, wp.0v.fit
 # 木偶
 DOMAIN-SUFFIX, 666291.xyz
-DOMAIN-SUFFIX,5568.eu.org
-DOMAIN-SUFFIX,91muou.icu
-DOMAIN-SUFFIX,muouso.fun
+DOMAIN-SUFFIX, 5568.eu.org
+DOMAIN-SUFFIX, 91muou.icu
+DOMAIN-SUFFIX, muouso.fun
 # 南风短剧
 DOMAIN, www.nanf.cc
 # 欧歌
@@ -163,24 +163,24 @@ DOMAIN-SUFFIX, dcyun.cc
 IP-CIDR, 1.95.79.193/32, no-resolve
 # 特下饭
 DOMAIN-SUFFIX, xn--ghqy10g1w0a.xyz
-IP-CIDR,154.204.177.231/32,no-resolve
+IP-CIDR, 154.204.177.231/32, no-resolve
 # 天逸搜
 DOMAIN-SUFFIX, tianyiso.com
 # 玩偶哥哥
-DOMAIN-KEYWORD,wogg
-DOMAIN-SUFFIX,xxooo.cf
-DOMAIN-SUFFIX,333232.xyz
-DOMAIN-SUFFIX,heshiheng.top
-DOMAIN-SUFFIX,wogg.one
-DOMAIN-SUFFIX,wogg.lol
+DOMAIN-KEYWORD, wogg
+DOMAIN-SUFFIX, xxooo.cf
+DOMAIN-SUFFIX, 333232.xyz
+DOMAIN-SUFFIX, heshiheng.top
+DOMAIN-SUFFIX, wogg.one
+DOMAIN-SUFFIX, wogg.lol
 # 小虎斑
 IP-CIDR, 103.45.162.207/32, no-resolve
 #小米
-DOMAIN-KEYWORD,mucpan
-DOMAIN-SUFFIX,milvdou.fun
-DOMAIN-SUFFIX,mucpan.cc
-DOMAIN,xiaomi.628383.xyz
-IP-CIDR,156.238.229.163/32,no-resolve
+DOMAIN-KEYWORD, mucpan
+DOMAIN-SUFFIX, milvdou.fun
+DOMAIN-SUFFIX, mucpan.cc
+DOMAIN, xiaomi.628383.xyz
+IP-CIDR, 156.238.229.163/32, no-resolve
 # 校长影视
 DOMAIN-SUFFIX, xzys.fun
 # 云盘吧
@@ -190,25 +190,25 @@ DOMAIN-SUFFIX, yunpan8.net
 DOMAIN, res.yunpan.win
 # 至臻视觉
 DOMAIN, mihdr.top
-DOMAIN-SUFFIX,xiaomi666.fun
-DOMAIN-SUFFIX,miqk.cc
-DOMAIN-SUFFIX,xiaomiai.site
+DOMAIN-SUFFIX, xiaomi666.fun
+DOMAIN-SUFFIX, miqk.cc
+DOMAIN-SUFFIX, xiaomiai.site
 # 二小
-DOMAIN-SUFFIX,xhww.net
-DOMAIN-SUFFIX,2xiaopan.fun
-DOMAIN-SUFFIX,erxiaofn.click
-DOMAIN-SUFFIX,erxiaofn.site
-DOMAIN-SUFFIX,xiaoer.5568.eu.org
-DOMAIN-SUFFIX,999888456.xyz
-IP-CIDR,89.213.49.249/32,no-resolve
+DOMAIN-SUFFIX, xhww.net
+DOMAIN-SUFFIX, 2xiaopan.fun
+DOMAIN-SUFFIX, erxiaofn.click
+DOMAIN-SUFFIX, erxiaofn.site
+DOMAIN-SUFFIX, xiaoer.5568.eu.org
+DOMAIN-SUFFIX, 999888456.xyz
+IP-CIDR, 89.213.49.249/32, no-resolve
 # 大玩ou
-IP-CIDR,149.88.87.18/32,no-resolve
+IP-CIDR, 149.88.87.18/32, no-resolve
 DST-PORT,6688
 # 玩偶叔叔
-DOMAIN,woss.fenwe.eu.org
+DOMAIN, woss.fenwe.eu.org
 # 百家影音
-DOMAIN-SUFFIX,jiexi.news
-DOMAIN-SUFFIX,885525.xyz
+DOMAIN-SUFFIX, jiexi.news
+DOMAIN-SUFFIX, 885525.xyz
 
 # nmlive相关
 DOMAIN-SUFFIX, bilivideo.com
@@ -250,11 +250,11 @@ DOMAIN-SUFFIX, dsakf23665.com
 # BILFUN
 DOMAIN-SUFFIX, bilfun.cc
 # 低端
-DOMAIN-SUFFIX,ddys.info
-DOMAIN-SUFFIX,ddys.wiki
-DOMAIN-SUFFIX,ddys.pro
-DOMAIN-SUFFIX,ddys.mov
-DOMAIN-SUFFIX,ddys.art
+DOMAIN-SUFFIX, ddys.info
+DOMAIN-SUFFIX, ddys.wiki
+DOMAIN-SUFFIX, ddys.pro
+DOMAIN-SUFFIX, ddys.mov
+DOMAIN-SUFFIX, ddys.art
 # AGE
 DOMAIN-SUFFIX, agedm.org
 # Catflix
