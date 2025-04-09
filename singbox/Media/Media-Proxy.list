@@ -1,7 +1,7 @@
 # https://raw.githubusercontent.com/sooyaaabo/Loon/refs/heads/main/Rule/Media-Proxy.list
 
-DOMAIN-SUFFIX,v1.ax
-DOMAIN-SUFFIX,notion-api.splitbee.io
+DOMAIN-SUFFIX, v1.ax
+DOMAIN-SUFFIX, notion-api.splitbee.io
 # CMSPlayer
 # 海外看
 DOMAIN-SUFFIX, haiwaikan.com
@@ -34,12 +34,12 @@ DOMAIN-SUFFIX, cdn.efhie.com
 DOMAIN-SUFFIX, picsum.photos
 DOMAIN-SUFFIX, ibb.co
 
-DOMAIN-SUFFIX,scrapingbee.com
-DOMAIN-SUFFIX,nivod.tv
-DOMAIN-SUFFIX,nivodi.tv
-DOMAIN-SUFFIX,nivodz.com
-DOMAIN-SUFFIX,histar.tv
-DOMAIN-SUFFIX,youtubekit-remote.losjet.com
+DOMAIN-SUFFIX, scrapingbee.com
+DOMAIN-SUFFIX, nivod.tv
+DOMAIN-SUFFIX, nivodi.tv
+DOMAIN-SUFFIX, nivodz.com
+DOMAIN-SUFFIX, histar.tv
+DOMAIN-SUFFIX, youtubekit-remote.losjet.com
 
 # XPTV
 # VOD TV源
