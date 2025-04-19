@@ -3,8 +3,6 @@ payload:
  - DOMAIN-SUFFIX,v1.ax
  - DOMAIN-SUFFIX,notion-api.splitbee.io
   # CMSPlayer
-# 4kdy
- - DOMAIN-SUFFIX,4kdy.vip
 # 海外看
  - DOMAIN-SUFFIX,haiwaikan.com
  - DOMAIN,cdnb.kin6c1.com
