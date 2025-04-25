@@ -1,6 +1,8 @@
 payload:
 #已标注了大部分可直连的地址,遇到无法直连的情况自行调整
 # https://raw.githubusercontent.com/sooyaaabo/Loon/refs/heads/main/Rule/Media-Direct.list
+# raingfh
+- DOMAIN-SUFFIX,raingfh.top
 # Syncnext
 - DOMAIN-SUFFIX,aliyundrive.asia
 - DOMAIN-SUFFIX,zh188.net
