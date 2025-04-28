@@ -3,6 +3,8 @@ payload:
 # https://raw.githubusercontent.com/sooyaaabo/Loon/refs/heads/main/Rule/Media-Direct.list
 # raingfh
 - DOMAIN-SUFFIX,raingfh.top
+# 4kdy
+- DOMAIN-SUFFIX,4kdy.vip
 # Syncnext
 - DOMAIN-SUFFIX,aliyundrive.asia
 - DOMAIN-SUFFIX,zh188.net
