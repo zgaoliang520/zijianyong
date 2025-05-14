@@ -272,7 +272,7 @@ payload:
 - DOMAIN,api.9cec79d.com
 - DOMAIN,wjm.kemfsj.com
 # 4k-av
-- DOMAIN,www.4k-av.com
+- DOMAIN-SUFFIX,4k-av.com
 # 囧动漫
 - IP-CIDR,43.142.232.217/32,no-resolve
 - DOMAIN-SUFFIX,fanchenstatic.com
