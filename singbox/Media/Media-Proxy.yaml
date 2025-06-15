@@ -1,5 +1,6 @@
 # https://raw.githubusercontent.com/sooyaaabo/Loon/refs/heads/main/Rule/Media-Proxy.list
 payload:
+ - DOMAIN-SUFFIX,xiaoya.pro
  - DOMAIN-SUFFIX,v1.ax
  - DOMAIN-SUFFIX,notion-api.splitbee.io
   # CMSPlayer
