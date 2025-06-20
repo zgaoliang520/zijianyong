@@ -365,9 +365,6 @@
   "route": {
     "auto_detect_interface": true,
     "final": "🐠 漏网之鱼",
-    "experimental": {
-      "rule_set_base": "/etc/sing-box/rules"
-    },
     "rules": [
       {
         "action": "sniff"
@@ -477,160 +474,28 @@
       }
     ],
     "rule_set": [
-      {
-        "tag": "geosite-chat",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://mitu.198727.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/category-ai-!cn.srs",
-        "download_detour": "🎯 全球直连"
-      },
-      {
-        "tag": "geosite-direct",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://mitu.198727.xyz/https://github.com/zgaoliang520/zijianyong/raw/refs/heads/master/singbox/Media/Media-Direct.srs",
-        "download_detour": "🎯 全球直连"
-      },
-      {
-        "tag": "geosite-proxy",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://mitu.198727.xyz/https://github.com/zgaoliang520/zijianyong/raw/refs/heads/master/singbox/Media/Media-Proxy.srs",
-        "download_detour": "🎯 全球直连"
-      },
-      {
-        "tag": "geosite-youtube",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://mitu.198727.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/youtube.srs",
-        "download_detour": "🎯 全球直连"
-      },
-      {
-        "tag": "geosite-google",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://mitu.198727.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/google.srs",
-        "download_detour": "🎯 全球直连"
-      },
-      {
-        "tag": "geosite-github",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://mitu.198727.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/github.srs",
-        "download_detour": "🎯 全球直连"
-      },
-      {
-        "tag": "geosite-telegram",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://mitu.198727.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/telegram.srs",
-        "download_detour": "🎯 全球直连"
-      },
-      {
-        "tag": "geosite-tiktok",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://mitu.198727.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/tiktok.srs",
-        "download_detour": "🎯 全球直连"
-      },
-      {
-        "tag": "geosite-netflix",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://mitu.198727.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/netflix.srs",
-        "download_detour": "🎯 全球直连"
-      },
-      {
-        "tag": "geosite-pikpak",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://mitu.198727.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/pikpak.srs",
-        "download_detour": "🎯 全球直连"
-      },
-      {
-        "tag": "geosite-apple",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://mitu.198727.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/apple.srs",
-        "download_detour": "🎯 全球直连"
-      },
-      {
-        "tag": "geosite-microsoft",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://mitu.198727.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/microsoft.srs",
-        "download_detour": "🎯 全球直连"
-      },
-      {
-        "tag": "geosite-onedrive",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://mitu.198727.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/onedrive.srs",
-        "download_detour": "🎯 全球直连"
-      },
-      {
-        "tag": "geosite-geolocation-!cn",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://mitu.198727.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/geolocation-!cn.srs",
-        "download_detour": "🎯 全球直连"
-      },
-      {
-        "tag": "geosite-cn",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://mitu.198727.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/cn.srs",
-        "download_detour": "🎯 全球直连"
-      },
-      {
-        "tag": "geosite-private",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://mitu.198727.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/private.srs",
-        "download_detour": "🎯 全球直连"
-      },
-      {
-        "tag": "geoip-google",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://mitu.198727.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/google.srs",
-        "download_detour": "🎯 全球直连"
-      },
-      {
-        "tag": "geoip-telegram",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://mitu.198727.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/telegram.srs",
-        "download_detour": "🎯 全球直连"
-      },
-      {
-        "tag": "geoip-netflix",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://mitu.198727.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/netflix.srs",
-        "download_detour": "🎯 全球直连"
-      },
-      {
-        "tag": "geoip-apple",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://mitu.198727.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo-lite/geoip/apple.srs",
-        "download_detour": "🎯 全球直连"
-      },
-      {
-        "tag": "geoip-cn",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://mitu.198727.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/cn.srs",
-        "download_detour": "🎯 全球直连"
-      },
-      {
-        "tag": "geoip-private",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://mitu.198727.xyz/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/private.srs",
-        "download_detour": "🎯 全球直连"
-      }
+      { "tag": "geosite-chat", "type": "local", "format": "binary", "path": "/etc/sing-box/rules/geosite-chat.srs" },
+      { "tag": "geosite-direct", "type": "local", "format": "binary", "path": "/etc/sing-box/rules/geosite-direct.srs" },
+      { "tag": "geosite-proxy", "type": "local", "format": "binary", "path": "/etc/sing-box/rules/geosite-proxy.srs" },
+      { "tag": "geosite-youtube", "type": "local", "format": "binary", "path": "/etc/sing-box/rules/geosite-youtube.srs" },
+      { "tag": "geosite-google", "type": "local", "format": "binary", "path": "/etc/sing-box/rules/geosite-google.srs" },
+      { "tag": "geosite-github", "type": "local", "format": "binary", "path": "/etc/sing-box/rules/geosite-github.srs" },
+      { "tag": "geosite-telegram", "type": "local", "format": "binary", "path": "/etc/sing-box/rules/geosite-telegram.srs" },
+      { "tag": "geosite-tiktok", "type": "local", "format": "binary", "path": "/etc/sing-box/rules/geosite-tiktok.srs" },
+      { "tag": "geosite-netflix", "type": "local", "format": "binary", "path": "/etc/sing-box/rules/geosite-netflix.srs" },
+      { "tag": "geosite-pikpak", "type": "local", "format": "binary", "path": "/etc/sing-box/rules/geosite-pikpak.srs" },
+      { "tag": "geosite-apple", "type": "local", "format": "binary", "path": "/etc/sing-box/rules/geosite-apple.srs" },
+      { "tag": "geosite-microsoft", "type": "local", "format": "binary", "path": "/etc/sing-box/rules/geosite-microsoft.srs" },
+      { "tag": "geosite-onedrive", "type": "local", "format": "binary", "path": "/etc/sing-box/rules/geosite-onedrive.srs" },
+      { "tag": "geosite-geolocation-!cn", "type": "local", "format": "binary", "path": "/etc/sing-box/rules/geosite-geolocation-!cn.srs" },
+      { "tag": "geosite-cn", "type": "local", "format": "binary", "path": "/etc/sing-box/rules/geosite-cn.srs" },
+      { "tag": "geosite-private", "type": "local", "format": "binary", "path": "/etc/sing-box/rules/geosite-private.srs" },
+      { "tag": "geoip-google", "type": "local", "format": "binary", "path": "/etc/sing-box/rules/geoip-google.srs" },
+      { "tag": "geoip-telegram", "type": "local", "format": "binary", "path": "/etc/sing-box/rules/geoip-telegram.srs" },
+      { "tag": "geoip-netflix", "type": "local", "format": "binary", "path": "/etc/sing-box/rules/geoip-netflix.srs" },
+      { "tag": "geoip-apple", "type": "local", "format": "binary", "path": "/etc/sing-box/rules/geoip-apple.srs" },
+      { "tag": "geoip-cn", "type": "local", "format": "binary", "path": "/etc/sing-box/rules/geoip-cn.srs" },
+      { "tag": "geoip-private", "type": "local", "format": "binary", "path": "/etc/sing-box/rules/geoip-private.srs" }
     ]
   }
 }
