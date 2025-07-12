@@ -172,13 +172,13 @@ DOMAIN-SUFFIX,heshiheng.top
 DOMAIN-SUFFIX,wogg.one
 DOMAIN-SUFFIX,wogg.lol
 # 小虎斑
-IP-CIDR,103.45.162.207/32, no-resolve
+IP-CIDR,103.45.162.207/32,no-resolve
 #小米
 DOMAIN-KEYWORD,mucpan
 DOMAIN-SUFFIX,milvdou.fun
 DOMAIN-SUFFIX,mucpan.cc
 DOMAIN,xiaomi.628383.xyz
-IP-CIDR,156.238.229.163/32, no-resolve
+IP-CIDR,156.238.229.163/32,no-resolve
 # 校长影视
 DOMAIN-SUFFIX,xzys.fun
 # 云盘吧
@@ -198,9 +198,9 @@ DOMAIN-SUFFIX,erxiaofn.click
 DOMAIN-SUFFIX,erxiaofn.site
 DOMAIN-SUFFIX,xiaoer.5568.eu.org
 DOMAIN-SUFFIX,999888456.xyz
-IP-CIDR,89.213.49.249/32, no-resolve
+IP-CIDR,89.213.49.249/32,no-resolve
 # 大玩ou
-IP-CIDR,149.88.87.18/32, no-resolve
+IP-CIDR,149.88.87.18/32,no-resolve
 DST-PORT,6688
 # 玩偶叔叔
 DOMAIN, woss.fenwe.eu.org
@@ -267,15 +267,15 @@ DOMAIN,wjm.kemfsj.com
 # 4k-av
 DOMAIN,www.4k-av.com
 # 囧动漫
-IP-CIDR,43.142.232.217/32, no-resolve
+IP-CIDR,43.142.232.217/32,no-resolve
 DOMAIN-SUFFIX,fanchenstatic.com
 DOMAIN,i0.hdslb.com
 DOMAIN-SUFFIX,bsgslb.cn
 DOMAIN-SUFFIX,bytetos.com
 DOMAIN-SUFFIX,douyinvod.com
 DOMAIN-SUFFIX,byteimg.com
-IP-CIDR,110.41.171.181/32, no-resolve
-IP-CIDR,49.235.143.104/32, no-resolve
+IP-CIDR,110.41.171.181/32,no-resolve
+IP-CIDR,49.235.143.104/32,no-resolve
 DOMAIN-SUFFIX,xhscdn.com
 DOMAIN-SUFFIX,bdxiguastatic.com
 DOMAIN-SUFFIX,zshtys888.com
@@ -320,24 +320,24 @@ DOMAIN-SUFFIX,ysttv.com
 DOMAIN,qiniu.rongjuwh.cn
 DOMAIN,app.whjzjx.cn
 DOMAIN,u.shytkjgs.com
-IP-CIDR,218.22.23.189/32, no-resolve
-IP-CIDR,117.68.35.135/32, no-resolve
-IP-CIDR,218.22.23.229/32, no-resolve
+IP-CIDR,218.22.23.189/32,no-resolve
+IP-CIDR,117.68.35.135/32,no-resolve
+IP-CIDR,218.22.23.229/32,no-resolve
 DOMAIN-SUFFIX,qnqcdn.net
 DOMAIN-SUFFIX,xingya.com.cn
-IP-CIDR,117.68.35.139/32, no-resolve
+IP-CIDR,117.68.35.139/32,no-resolve
 # 小苹果
-IP-CIDR,163.123.192.184/32, no-resolve
-IP-CIDR,148.59.74.50/32, no-resolve
-IP-CIDR,205.178.182.17/32, no-resolve
-IP-CIDR,163.123.192.169/32, no-resolve
-IP-CIDR,163.123.192.68/32, no-resolve
-IP-CIDR,163.123.192.182/32, no-resolve
-IP-CIDR,205.178.182.8/32, no-resolve
-IP-CIDR,163.123.192.108/32, no-resolve
-IP-CIDR,163.123.192.29/32, no-resolve
-IP-CIDR,205.178.182.52/32, no-resolve
-IP-CIDR,163.123.192.17/32, no-resolve
+IP-CIDR,163.123.192.184/32,no-resolve
+IP-CIDR,148.59.74.50/32,no-resolve
+IP-CIDR,205.178.182.17/32,no-resolve
+IP-CIDR,163.123.192.169/32,no-resolve
+IP-CIDR,163.123.192.68/32,no-resolve
+IP-CIDR,163.123.192.182/32,no-resolve
+IP-CIDR,205.178.182.8/32,no-resolve
+IP-CIDR,163.123.192.108/32,no-resolve
+IP-CIDR,163.123.192.29/32,no-resolve
+IP-CIDR,205.178.182.52/32,no-resolve
+IP-CIDR,163.123.192.17/32,no-resolve
 DOMAIN,c.xpgtv.net
 DOMAIN,item.xpgtv.xyz
 # 厂长
