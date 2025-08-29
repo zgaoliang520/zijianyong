@@ -9,7 +9,7 @@
           "interval": "10m",
           "timeout": "3s"
       },
-      "url": "https://api.stentvessel.top/sub?target=clash&new_name=true&emoji=true&clash.doh=true&filename=YToo_SS&udp=true&url=https%3A%2F%2Fapi.ytoo.xyz%2Fosubscribe.php%3Fsid%3D74696%26token%3DJgpNz19GXZB0%26sip002%3D1",
+      "url": "",
       "exclude": "官网|剩余|流量|套餐|免费|订阅|全球直连|到期时间|GB|Expire Date|Traffic|ExpireDate",
       "download_detour": "🎯 全球直连",
       "update_interval": "12h"
@@ -23,7 +23,7 @@
           "interval": "10m",
           "timeout": "3s"
       },
-      "url": "https://xn--cp3a08l.com/api/v1/client/subscribe?token=ba68d238c40af20ee8b4305e53b47980",
+      "url": "",
       "exclude": "官网|剩余|流量|套餐|免费|订阅|全球直连|到期时间|GB|Expire Date|Traffic|ExpireDate",
       "download_detour": "🎯 全球直连",
       "update_interval": "12h"
